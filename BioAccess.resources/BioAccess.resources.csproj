@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B43863A-1441-4018-BF72-7F54984F28EE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>BioAccess</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>12.0.0</ProductVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugType>none</DebugType>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>..\bin\</OutputPath>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Optimize>True</Optimize>
+    <DebugType>none</DebugType>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmRegisterFace.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmReadCardID.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmPrivilegeDoorCopy.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmRecordDetail.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmAbout.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmControlHolidayAdd.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmControlHolidaySet.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmControllerDoorControlSet.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmControllerZoneSelect.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmControlSeg.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmDeleteRecords.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmDoorAsSwitch.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmEditUserFile.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmFind.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmInputNewName.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmInterfaceLock.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmLogQuery.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmNetControllerConfig.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmOperatePrivilege.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmOperator.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmOperatorDepartmentsConfiguration.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmOperatorUpdate.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmOperatorZonesConfiguration.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmOption.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmOptionAdvanced.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmPrivilege.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmPrivilegeCopy.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmPrivilegeSingle.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmRegister.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmSetPassword.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmShowError.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmSwipeRecordsFindOption.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmSystemParam.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmTCPIPConfigure.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmTCPIPWEBConfigure.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmTranslate.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmUpgradeFirmware.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmController.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmExtendedFunctions.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmRegisterFingerprint.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmUploadOption.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmUser.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmUserAutoAdd.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmUserBatchUpdate.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmUsersCardLost.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmUserSelected.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\dfrmWait.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmADCT3000.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmConsole.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmControllers.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmControlSegs.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmDepartments.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmLogin.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmPrivileges.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmSwipeRecords.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmUsers.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmWatchingMoreRecords.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Basic\frmZones.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Core\dfrmSelectColumnsShow.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Core\UserControlFind.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Core\UserControlFindSecond.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Core\XMessageBox.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\dfrmDbCompact.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmAntiBack.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmCommPSet.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmControllerAntiPassback.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmControllerExtendFuncPasswordManage.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmControllerFirstCard.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmControllerInterLock.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmControllerMultiCards.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmControllerTask.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmControllerTaskList.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmControllerWarnSet.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmFirstCard.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmLocate.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmMultiCards.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmPeripheralControlBoard.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmPeripheralControlBoardSuper.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\dfrmPersonsInside.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Elevator\dfrmElevatorGroup.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Elevator\dfrmFloors.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Elevator\dfrmOneToMoreSetup.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Elevator\dfrmUserFloor.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Elevator\frmUsers4Elevator.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Map\dfrmMapInfo.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Map\dfrmSelectMapDoor.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Map\frmMaps.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meal\dfrmMealOption.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meal\dfrmMealSetup.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meal\frmMeal.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meeting\dfrmManualSign.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meeting\dfrmMeetingAdr.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meeting\dfrmMeetingAdrSet.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meeting\dfrmMeetingSet.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meeting\dfrmMeetingSign.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meeting\dfrmMeetingStatDetail.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Meeting\frmMeetings.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\dfrmPatrolReportCreate.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\dfrmPatrolReportFindOption.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\dfrmPatrolSetup.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\dfrmPatrolTaskAutoPlan.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\dfrmPatrolTaskDelete.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\dfrmPatrolTaskEdit.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\dfrmRouteEdit.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\frmPatrolReport.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\frmPatrolRoute.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\frmPatrolStatistics.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\Patrol\frmPatrolTaskData.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\PCCheck\dfrmCheckAccessConfigure.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\PCCheck\dfrmCheckAccessSetup.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\ExtendFunc\PCCheck\dfrmPCCheckAccess.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\frmTestController.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmAutoShift.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmHolidayAdd.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmHolidaySet.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmHolidayType.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmLeaveAdd.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmManualSwipeRecordsAdd.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmShiftAttReportCreate.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmShiftAttReportFindOption.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmShiftDelete.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmShiftEdit.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmShiftNormalOption.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmShiftNormalParamSet.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmShiftOtherParamSet.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\dfrmShiftOtherTypeSet.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\frmLeave.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\frmManualSwipeRecords.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\frmShiftAttReport.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\frmShiftAttStatistics.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\frmShiftOtherData.zh-CHS.resx" />
+    <EmbeddedResource Include="WG3000_COMM\Reports\Shift\frmShiftOtherTypes.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WG3000_COMM\ResStrings\CommonStr.zh-CHS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mnuPatrol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuPatrol.Text" xml:space="preserve">
+    <value>순찰관리</value>
+  </data>
+  <data name="mnu1Help.Text" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="mnu1Help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 24</value>
+  </data>
+  <data name="mnuManual.Text" xml:space="preserve">
+    <value>사용설명서</value>
+  </data>
+  <data name="mnuManual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="mnuMeetingSign.Text" xml:space="preserve">
+    <value>회의관리</value>
+  </data>
+  <data name="mnuMeetingSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="shortcutControllers.Text" xml:space="preserve">
+    <value>기대</value>
+  </data>
+  <data name="shortcutControllers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="mnuExit.Text" xml:space="preserve">
+    <value>탈퇴</value>
+  </data>
+  <data name="mnuExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="cmdEditOperator.Text" xml:space="preserve">
+    <value>등록사용자이름과 암호변경</value>
+  </data>
+  <data name="cmdEditOperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="contextMenuStrip2Help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 92</value>
+  </data>
+  <data name="btnAddController.ToolTip" xml:space="preserve">
+    <value>기대가 련결된 후 누르면 기대를 검색하고 다시 누르면 검색된 기대가 자동적으로 추가된다.</value>
+  </data>
+  <data name="mnuExtendedFunction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuExtendedFunction.Text" xml:space="preserve">
+    <value>확장기능</value>
+  </data>
+  <data name="btnAutoAddCardBySwiping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 34</value>
+  </data>
+  <data name="btnAutoAddCardBySwiping.Text" xml:space="preserve">
+    <value>2. 카드를 입력하여
+   사용자추가
+</value>
+  </data>
+  <data name="btnIconBasicConfig.Text" xml:space="preserve">
+    <value>기본설정</value>
+  </data>
+  <data name="mnuInterfaceLock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuInterfaceLock.Text" xml:space="preserve">
+    <value>화면잠그기</value>
+  </data>
+  <data name="mnu1Tool.Text" xml:space="preserve">
+    <value>고급설치...</value>
+  </data>
+  <data name="mnu1Tool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 24</value>
+  </data>
+  <data name="toolStripDropDownButton1.Text" xml:space="preserve">
+    <value>도구</value>
+  </data>
+  <data name="shortcutPrivilege.Text" xml:space="preserve">
+    <value>권한</value>
+  </data>
+  <data name="shortcutPrivilege.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="mnuAbout.Text" xml:space="preserve">
+    <value>프로그람에 대하여</value>
+  </data>
+  <data name="mnuAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>재인증, 확정후 문열기 가능</value>
+  </data>
+  <data name="mnuDoorAsSwitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuDoorAsSwitch.Text" xml:space="preserve">
+    <value>문스위치설정</value>
+  </data>
+  <data name="btnAddPrivilege.ToolTip" xml:space="preserve">
+    <value>사용자와 문을 선택하고 허가 및 업로드단추를 누른다. 다음 다시 인증하면 문을 열수 있습니다.
+권한개수가 많을 때에는 써버기에 업로드할것을 권고합니다</value>
+  </data>
+  <data name="contextMenuStrip3Normal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 136</value>
+  </data>
+  <data name="shortcutPersonnel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="shortcutPersonnel.Text" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="statRuninfo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 21</value>
+  </data>
+  <data name="btnIconQuickConfig.Text" xml:space="preserve">
+    <value>입문안내</value>
+  </data>
+  <data name="mnuTaskList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuTaskList.Text" xml:space="preserve">
+    <value>정시임무</value>
+  </data>
+  <data name="mnuElevator.Text" xml:space="preserve">
+    <value>1대다관리</value>
+  </data>
+  <data name="mnuElevator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuOption.Text" xml:space="preserve">
+    <value>옵션</value>
+  </data>
+  <data name="mnuOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="chkHideLogin.Text" xml:space="preserve">
+    <value>기동시 현시안함</value>
+  </data>
+  <data name="mnuSystemCharacteristic.Text" xml:space="preserve">
+    <value>체계특성</value>
+  </data>
+  <data name="mnuSystemCharacteristic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="shortcutSwipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="shortcutSwipe.Text" xml:space="preserve">
+    <value>원시기록열람</value>
+  </data>
+  <data name="btnAutoAddCardBySwiping.ToolTip" xml:space="preserve">
+    <value>사용자의 이름을 추가한 후 사용자관리에서 수정을 진행</value>
+  </data>
+  <data name="btnAddPrivilege.Text" xml:space="preserve">
+    <value>3. 추가권한
+   허가 및 업로드</value>
+  </data>
+  <data name="mnuMeal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuMeal.Text" xml:space="preserve">
+    <value>정액식사</value>
+  </data>
+  <data name="btnHideGettingStarted.Text" xml:space="preserve">
+    <value>   입문안내 닫기</value>
+  </data>
+  <data name="btnHideGettingStarted.ToolTip" xml:space="preserve">
+    <value>"도구"-&gt;"옵션" 에서 다시 열기.</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 141</value>
+  </data>
+  <data name="shortcutConsole.Text" xml:space="preserve">
+    <value>써버</value>
+  </data>
+  <data name="shortcutConsole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="mnuLogQuery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuLogQuery.Text" xml:space="preserve">
+    <value>조작리력</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="toolStripButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 30</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 6</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 6</value>
+  </data>
+  <data name="contextMenuStrip1Tools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 396</value>
+  </data>
+  <data name="toolStrip1BookMark.ToolTip" xml:space="preserve">
+    <value>마우스오른쪽건을 누르면 메뉴가 현시됩니다...
+열람내용을 검색하시려면 F3건 혹은 CTRL+F를 누르십시오</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 6</value>
+  </data>
+  <data name="cmdOperatorManage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="cmdOperatorManage.Text" xml:space="preserve">
+    <value>관리자관리</value>
+  </data>
+  <data name="btnIconAccessControl.Text" xml:space="preserve">
+    <value>출입관리설정</value>
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value>마우스오른쪽건을 누르면 메뉴가 현시됩니다...
+열람내용을 검색하시려면 F3건 혹은 CTRL+F를 누르십시오</value>
+  </data>
+  <data name="mnuPCCheckAccessConfigure.Text" xml:space="preserve">
+    <value>내외부인증관리</value>
+  </data>
+  <data name="mnuPCCheckAccessConfigure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="btnHideGettingStarted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 153</value>
+  </data>
+  <data name="btnAddController.Text" xml:space="preserve">
+    <value>1. 기대를 검색하여
+   추가</value>
+  </data>
+  <data name="toolStripButtonBookmark2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 30</value>
+  </data>
+  <data name="toolStripButtonBookmark2.Text" xml:space="preserve">
+    <value>부문</value>
+  </data>
+  <data name="btnAddPrivilege.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 103</value>
+  </data>
+  <data name="btnIconBasicOperate.Text" xml:space="preserve">
+    <value>기본조작</value>
+  </data>
+  <data name="toolStripButtonBookmark1.Text" xml:space="preserve">
+    <value>기대</value>
+  </data>
+  <data name="toolStripButtonBookmark1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 30</value>
+  </data>
+  <data name="toolStripMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="toolStripMenuItem20.Text" xml:space="preserve">
+    <value>입문안내를 현시</value>
+  </data>
+  <data name="shortcutAttendance.Text" xml:space="preserve">
+    <value>출퇴근통계표</value>
+  </data>
+  <data name="shortcutAttendance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="toolStripMenuItem23.Text" xml:space="preserve">
+    <value>기대통신암호</value>
+  </data>
+  <data name="toolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="btnIconAttendance.Text" xml:space="preserve">
+    <value>출퇴근관리설정</value>
+  </data>
+  <data name="cmdChangePasswor.Text" xml:space="preserve">
+    <value>등록암호변경</value>
+  </data>
+  <data name="cmdChangePasswor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuDBBackup.Text" xml:space="preserve">
+    <value>자료기지백업/압축</value>
+  </data>
+  <data name="mnuDBBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="btnIconHelp.Text" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="btnIconTools.Text" xml:space="preserve">
+    <value>도 구</value>
+  </data>
+</root>

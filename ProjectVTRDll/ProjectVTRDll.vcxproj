@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FE255F08-2C2C-44AD-8CDF-FCD6123006E1}</ProjectGuid>
+    <RootNamespace>ProjectVTR</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>ProjectVTRDLL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental />
+    <TargetName>H264Codec</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>H264Codec</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\ProjectVTRDll;..\ProjectVTRDll\GSCommon;..\ProjectVTRDll\ffmpeg;..\ProjectVTRDll\lib\VStabLib</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\ProjectVTRDll\lib\VStabLib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImportLibrary>$(SolutionDir)lib\H264Codec.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\ProjectVTRDll;..\ProjectVTRDll\GSCommon;..\ProjectVTRDll\ffmpeg;..\ProjectVTRDll\lib\VStabLib</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\ProjectVTRDll\lib\VStabLib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImportLibrary>$(SolutionDir)lib\H264Codec.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ffmpeg\FFMpegInstance.cpp" />
+    <ClCompile Include="ffmpeg\H264Decoder.cpp" />
+    <ClCompile Include="GSCommon\ArrayList.cpp" />
+    <ClCompile Include="GSCommon\GSFrameBuffer.cpp" />
+    <ClCompile Include="GSCommon\GSLockMng.cpp" />
+    <ClCompile Include="GSCommon\GSNetCommon.cpp" />
+    <ClCompile Include="GSCommon\GSNetPacket.cpp" />
+    <ClCompile Include="GSCommon\GSPC_Socket.cpp" />
+    <ClCompile Include="GSCommon\GSPC_UI.cpp" />
+    <ClCompile Include="GSCommon\GSUtilityCls.cpp" />
+    <ClCompile Include="GSCommon\GSXMLite.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ffmpeg\changepic.h" />
+    <ClInclude Include="ffmpeg\FFMpegInstance.h" />
+    <ClInclude Include="ffmpeg\H264Decoder.h" />
+    <ClInclude Include="ffmpeg\inttypes.h" />
+    <ClInclude Include="ffmpeg\libavcodec\avcodec.h" />
+    <ClInclude Include="ffmpeg\libavcodec\avfft.h" />
+    <ClInclude Include="ffmpeg\libavcodec\dv_profile.h" />
+    <ClInclude Include="ffmpeg\libavcodec\dxva2.h" />
+    <ClInclude Include="ffmpeg\libavcodec\old_codec_ids.h" />
+    <ClInclude Include="ffmpeg\libavcodec\vaapi.h" />
+    <ClInclude Include="ffmpeg\libavcodec\vda.h" />
+    <ClInclude Include="ffmpeg\libavcodec\vdpau.h" />
+    <ClInclude Include="ffmpeg\libavcodec\version.h" />
+    <ClInclude Include="ffmpeg\libavcodec\xvmc.h" />
+    <ClInclude Include="ffmpeg\libavdevice\avdevice.h" />
+    <ClInclude Include="ffmpeg\libavdevice\version.h" />
+    <ClInclude Include="ffmpeg\libavfilter\asrc_abuffer.h" />
+    <ClInclude Include="ffmpeg\libavfilter\avcodec.h" />
+    <ClInclude Include="ffmpeg\libavfilter\avfilter.h" />
+    <ClInclude Include="ffmpeg\libavfilter\avfiltergraph.h" />
+    <ClInclude Include="ffmpeg\libavfilter\buffersink.h" />
+    <ClInclude Include="ffmpeg\libavfilter\buffersrc.h" />
+    <ClInclude Include="ffmpeg\libavfilter\version.h" />
+    <ClInclude Include="ffmpeg\libavformat\avformat.h" />
+    <ClInclude Include="ffmpeg\libavformat\avio.h" />
+    <ClInclude Include="ffmpeg\libavformat\version.h" />
+    <ClInclude Include="ffmpeg\libavutil\adler32.h" />
+    <ClInclude Include="ffmpeg\libavutil\aes.h" />
+    <ClInclude Include="ffmpeg\libavutil\attributes.h" />
+    <ClInclude Include="ffmpeg\libavutil\audioconvert.h" />
+    <ClInclude Include="ffmpeg\libavutil\audio_fifo.h" />
+    <ClInclude Include="ffmpeg\libavutil\avassert.h" />
+    <ClInclude Include="ffmpeg\libavutil\avconfig.h" />
+    <ClInclude Include="ffmpeg\libavutil\avstring.h" />
+    <ClInclude Include="ffmpeg\libavutil\avutil.h" />
+    <ClInclude Include="ffmpeg\libavutil\base64.h" />
+    <ClInclude Include="ffmpeg\libavutil\blowfish.h" />
+    <ClInclude Include="ffmpeg\libavutil\bprint.h" />
+    <ClInclude Include="ffmpeg\libavutil\bswap.h" />
+    <ClInclude Include="ffmpeg\libavutil\buffer.h" />
+    <ClInclude Include="ffmpeg\libavutil\channel_layout.h" />
+    <ClInclude Include="ffmpeg\libavutil\common.h" />
+    <ClInclude Include="ffmpeg\libavutil\cpu.h" />
+    <ClInclude Include="ffmpeg\libavutil\crc.h" />
+    <ClInclude Include="ffmpeg\libavutil\dict.h" />
+    <ClInclude Include="ffmpeg\libavutil\display.h" />
+    <ClInclude Include="ffmpeg\libavutil\downmix_info.h" />
+    <ClInclude Include="ffmpeg\libavutil\error.h" />
+    <ClInclude Include="ffmpeg\libavutil\eval.h" />
+    <ClInclude Include="ffmpeg\libavutil\ffversion.h" />
+    <ClInclude Include="ffmpeg\libavutil\fifo.h" />
+    <ClInclude Include="ffmpeg\libavutil\file.h" />
+    <ClInclude Include="ffmpeg\libavutil\frame.h" />
+    <ClInclude Include="ffmpeg\libavutil\hash.h" />
+    <ClInclude Include="ffmpeg\libavutil\hmac.h" />
+    <ClInclude Include="ffmpeg\libavutil\imgutils.h" />
+    <ClInclude Include="ffmpeg\libavutil\intfloat.h" />
+    <ClInclude Include="ffmpeg\libavutil\intreadwrite.h" />
+    <ClInclude Include="ffmpeg\libavutil\lfg.h" />
+    <ClInclude Include="ffmpeg\libavutil\log.h" />
+    <ClInclude Include="ffmpeg\libavutil\lzo.h" />
+    <ClInclude Include="ffmpeg\libavutil\macros.h" />
+    <ClInclude Include="ffmpeg\libavutil\mathematics.h" />
+    <ClInclude Include="ffmpeg\libavutil\md5.h" />
+    <ClInclude Include="ffmpeg\libavutil\mem.h" />
+    <ClInclude Include="ffmpeg\libavutil\motion_vector.h" />
+    <ClInclude Include="ffmpeg\libavutil\murmur3.h" />
+    <ClInclude Include="ffmpeg\libavutil\old_pix_fmts.h" />
+    <ClInclude Include="ffmpeg\libavutil\opt.h" />
+    <ClInclude Include="ffmpeg\libavutil\parseutils.h" />
+    <ClInclude Include="ffmpeg\libavutil\pixdesc.h" />
+    <ClInclude Include="ffmpeg\libavutil\pixelutils.h" />
+    <ClInclude Include="ffmpeg\libavutil\pixfmt.h" />
+    <ClInclude Include="ffmpeg\libavutil\random_seed.h" />
+    <ClInclude Include="ffmpeg\libavutil\rational.h" />
+    <ClInclude Include="ffmpeg\libavutil\replaygain.h" />
+    <ClInclude Include="ffmpeg\libavutil\ripemd.h" />
+    <ClInclude Include="ffmpeg\libavutil\samplefmt.h" />
+    <ClInclude Include="ffmpeg\libavutil\sha.h" />
+    <ClInclude Include="ffmpeg\libavutil\sha512.h" />
+    <ClInclude Include="ffmpeg\libavutil\stereo3d.h" />
+    <ClInclude Include="ffmpeg\libavutil\threadmessage.h" />
+    <ClInclude Include="ffmpeg\libavutil\time.h" />
+    <ClInclude Include="ffmpeg\libavutil\timecode.h" />
+    <ClInclude Include="ffmpeg\libavutil\timestamp.h" />
+    <ClInclude Include="ffmpeg\libavutil\version.h" />
+    <ClInclude Include="ffmpeg\libavutil\xtea.h" />
+    <ClInclude Include="ffmpeg\libpostproc\postprocess.h" />
+    <ClInclude Include="ffmpeg\libpostproc\version.h" />
+    <ClInclude Include="ffmpeg\libswresample\swresample.h" />
+    <ClInclude Include="ffmpeg\libswresample\version.h" />
+    <ClInclude Include="ffmpeg\libswscale\swscale.h" />
+    <ClInclude Include="ffmpeg\libswscale\version.h" />
+    <ClInclude Include="ffmpeg\stdint.h" />
+    <ClInclude Include="GSCommon\ArrayList.h" />
+    <ClInclude Include="GSCommon\GSFrameBuffer.h" />
+    <ClInclude Include="GSCommon\GSLockMng.h" />
+    <ClInclude Include="GSCommon\GSNetCommon.h" />
+    <ClInclude Include="GSCommon\GSNetPacket.h" />
+    <ClInclude Include="GSCommon\GSPC_Socket.h" />
+    <ClInclude Include="GSCommon\GSPC_UI.h" />
+    <ClInclude Include="GSCommon\GSUtilityCls.h" />
+    <ClInclude Include="GSCommon\GSXMLite.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectVTRDll.vcxproj" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ProjectVTR.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

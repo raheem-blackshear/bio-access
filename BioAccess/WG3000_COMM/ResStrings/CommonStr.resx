@@ -1,0 +1,1888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strWarnOpenTooLong" xml:space="preserve">
+    <value>Open Too Long</value>
+  </data>
+  <data name="strTimeOverlapped" xml:space="preserve">
+    <value> time overlapped.</value>
+  </data>
+  <data name="strFloorController" xml:space="preserve">
+    <value>Controller</value>
+  </data>
+  <data name="strSelectUser" xml:space="preserve">
+    <value>Please select users.</value>
+  </data>
+  <data name="strSelectDoor" xml:space="preserve">
+    <value>Please Select some doors first.</value>
+  </data>
+  <data name="strDeletedSwipeRecordCount" xml:space="preserve">
+    <value>Deleted SwipeRecord Count = </value>
+  </data>
+  <data name="strAreYouSure" xml:space="preserve">
+    <value>Are you sure</value>
+  </data>
+  <data name="strAlreadyGotSwipeRecord" xml:space="preserve">
+    <value>Already got access records</value>
+  </data>
+  <data name="strCommPacketReceived" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="strConsumerNOWrong" xml:space="preserve">
+    <value>User ID is required and must be unique.</value>
+  </data>
+  <data name="strConsumerWrongPin" xml:space="preserve">
+    <value>PIN must be unique.</value>
+  </data>
+  <data name="strRecordSwipe" xml:space="preserve">
+    <value>Swipe</value>
+  </data>
+  <data name="strRecordDoorStatusEvent" xml:space="preserve">
+    <value>Record Door Status Events</value>
+  </data>
+  <data name="strRecordReset" xml:space="preserve">
+    <value>Controller Reset</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuAdjustTime" xml:space="preserve">
+    <value>Adjust Time</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuControllerCommPasswordSet" xml:space="preserve">
+    <value>Controller Communication Password</value>
+  </data>
+  <data name="strRecordWarn24Hour" xml:space="preserve">
+    <value>7*24Hour Zone</value>
+  </data>
+  <data name="strIndoorPersonsMax" xml:space="preserve">
+    <value>Indoor Persons Maximum</value>
+  </data>
+  <data name="strWrongUsersFile" xml:space="preserve">
+    <value>Invalid user Excel file.</value>
+  </data>
+  <data name="strRealClock" xml:space="preserve">
+    <value>RealClock</value>
+  </data>
+  <data name="strMonitorStop" xml:space="preserve">
+    <value>Monitor Stop</value>
+  </data>
+  <data name="strAlreadyUploadPrivileges" xml:space="preserve">
+    <value>Already uploaded</value>
+  </data>
+  <data name="strReArrange" xml:space="preserve">
+    <value>Please arrange shift first.</value>
+  </data>
+  <data name="strControllerPassword" xml:space="preserve">
+    <value>Authentication
+Mode</value>
+  </data>
+  <data name="strUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="strThursday_Short" xml:space="preserve">
+    <value>Thur</value>
+  </data>
+  <data name="strControllerBeginNo" xml:space="preserve">
+    <value>Controller Begin No.</value>
+  </data>
+  <data name="strDeleteForbidden" xml:space="preserve">
+    <value>The operator is forbidden to remove.</value>
+  </data>
+  <data name="strEnterInto" xml:space="preserve">
+    <value>Enter Into </value>
+  </data>
+  <data name="strDefaultType" xml:space="preserve">
+    <value>Default Type cannot be changed, added or deleted.</value>
+  </data>
+  <data name="strAMOffDuty" xml:space="preserve">
+    <value>A.M. OffDuty</value>
+  </data>
+  <data name="strNotIncludeBackSlash" xml:space="preserve">
+    <value>Do not include "\". </value>
+  </data>
+  <data name="strNotFind" xml:space="preserve">
+    <value>Finding is complete. There is no result.</value>
+  </data>
+  <data name="strTuesday_Short" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="strUploadPrivilegesOK" xml:space="preserve">
+    <value>Uploaded privileges successfully</value>
+  </data>
+  <data name="strSickLeave" xml:space="preserve">
+    <value>Sick Leave</value>
+  </data>
+  <data name="strNoControllerInfo3PCNotConnected" xml:space="preserve">
+    <value>Please check PC network connection.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1BasicOperate" xml:space="preserve">
+    <value>Basic Operate</value>
+  </data>
+  <data name="strIDIsDuplicated" xml:space="preserve">
+    <value>ID is duplicated.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuCardRecords" xml:space="preserve">
+    <value>Query Records</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuElevator" xml:space="preserve">
+    <value>Elevator</value>
+  </data>
+  <data name="strGettingSwipeRecord" xml:space="preserve">
+    <value>Getting access record</value>
+  </data>
+  <data name="strFunctionDisplayName_TotalControl_RemoteOpen" xml:space="preserve">
+    <value>Remote Open</value>
+  </data>
+  <data name="strSendRemoteOpenDoor" xml:space="preserve">
+    <value>Remote Open Door</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1BasicConfigure" xml:space="preserve">
+    <value>Basic Configure</value>
+  </data>
+  <data name="strRecordWarnEvent" xml:space="preserve">
+    <value>Record Warn Events</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuCheckController" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="strExportToExcel" xml:space="preserve">
+    <value>Export to the Excel file:</value>
+  </data>
+  <data name="strTranslateFileInvalid" xml:space="preserve">
+    <value>File is invalid!</value>
+  </data>
+  <data name="strFloorController2" xml:space="preserve">
+    <value>Elevator</value>
+  </data>
+  <data name="strFloorController3" xml:space="preserve">
+    <value>Lockers</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuDBBackup" xml:space="preserve">
+    <value>DB Backup</value>
+  </data>
+  <data name="strOperateFailed" xml:space="preserve">
+    <value>Operation failed</value>
+  </data>
+  <data name="strRealtimeGetRecords" xml:space="preserve">
+    <value>Realtime Get</value>
+  </data>
+  <data name="strRealtimeGetting" xml:space="preserve">
+    <value>Realtime Getting...</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuAntiBack" xml:space="preserve">
+    <value>Antipass-
+back</value>
+  </data>
+  <data name="strCardID" xml:space="preserve">
+    <value>Card NO</value>
+  </data>
+  <data name="strEnabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="strNewTitle" xml:space="preserve">
+    <value>Input New Title</value>
+  </data>
+  <data name="strCommOK" xml:space="preserve">
+    <value>Communication is OK</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_MORECARD" xml:space="preserve">
+    <value>Denied Access: Invalid authentication mode</value>
+  </data>
+  <data name="strNotImportedUsers" xml:space="preserve">
+    <value>Not Imported Users = </value>
+  </data>
+  <data name="strMonday_Short" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="strNoControllerInfo1" xml:space="preserve">
+    <value>Please check connection. Or try to connect the Controller to the PC communication port directly.</value>
+  </data>
+  <data name="strDBConNotCreate" xml:space="preserve">
+    <value>The database connection has not established.</value>
+  </data>
+  <data name="strCommLargePacketWriteFailed" xml:space="preserve">
+    <value>Large packet write failed</value>
+  </data>
+  <data name="strInterLink" xml:space="preserve">
+    <value>Inter Link</value>
+  </data>
+  <data name="strInterLock" xml:space="preserve">
+    <value>Inter Lock</value>
+  </data>
+  <data name="strOne4Enable" xml:space="preserve">
+    <value>1=Enabled</value>
+  </data>
+  <data name="strMeetingNameIsEmpty" xml:space="preserve">
+    <value>Meeting name must not be empty.</value>
+  </data>
+  <data name="strRecordPushButtonInvalid_NotOnLine" xml:space="preserve">
+    <value>Push Button Invalid: Not online</value>
+  </data>
+  <data name="strImportInformation" xml:space="preserve">
+    <value>Only imports valid ConsumerNO, Name, CardID, Password and Department.</value>
+  </data>
+  <data name="strRecordDeniedAccessINVALIDTIMEZONE" xml:space="preserve">
+    <value>Denied Access: Invalid Timezone</value>
+  </data>
+  <data name="strWEBDisabled" xml:space="preserve">
+    <value>WEB Disabled</value>
+  </data>
+  <data name="strWarnInvalidCardSwiping" xml:space="preserve">
+    <value>Invalid card swiping</value>
+  </data>
+  <data name="strPersonnel" xml:space="preserve">
+    <value>Personnel</value>
+  </data>
+  <data name="strRegisterSuccessfully" xml:space="preserve">
+    <value>Registered successfully. This product is activated.</value>
+  </data>
+  <data name="strFloor2" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <data name="strFloor3" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="strFloorConfigure" xml:space="preserve">
+    <value>Door Configure</value>
+  </data>
+  <data name="strFailed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="strRecordDeniedAccess" xml:space="preserve">
+    <value>Denied Access</value>
+  </data>
+  <data name="strMapNameDuplicated4Edit" xml:space="preserve">
+    <value>Map name is duplicated. Failed to change map</value>
+  </data>
+  <data name="strNeedUpload" xml:space="preserve">
+    <value>Need to upload!</value>
+  </data>
+  <data name="strNeedToWork" xml:space="preserve">
+    <value>Work Days</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuInterLock" xml:space="preserve">
+    <value>Inter Lock</value>
+  </data>
+  <data name="strWorkHour" xml:space="preserve">
+    <value>Work (hr)</value>
+  </data>
+  <data name="strCardAlreadyUsed" xml:space="preserve">
+    <value>The card number was already assigned. Please select another card.</value>
+  </data>
+  <data name="strMealPremote" xml:space="preserve">
+    <value>Please select reader for meal and confirm OK!</value>
+  </data>
+  <data name="strPwdNoPassword" xml:space="preserve">
+    <value>No Password</value>
+  </data>
+  <data name="strUpdateController" xml:space="preserve">
+    <value>Update Controller</value>
+  </data>
+  <data name="strDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="strDoorNO" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="strAllZones" xml:space="preserve">
+    <value>(All Zones)</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPeripheral" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="strWritingRecordsToDB" xml:space="preserve">
+    <value>Writing records to database</value>
+  </data>
+  <data name="strLicenseExpired" xml:space="preserve">
+    <value>The evalution period has expired.  Please Input register SN:</value>
+  </data>
+  <data name="strRecordWarnEmergencyCall" xml:space="preserve">
+    <value>Emergency Call</value>
+  </data>
+  <data name="strRecordWarnTamper" xml:space="preserve">
+    <value>Tamper</value>
+  </data>
+  <data name="strRemoteOpenDoorOK" xml:space="preserve">
+    <value>Remote open door successfully</value>
+  </data>
+  <data name="strRecordWarnFire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="strRecordPushButton" xml:space="preserve">
+    <value>Push Button</value>
+  </data>
+  <data name="strAutoAddCardErrConsumerNO" xml:space="preserve">
+    <value>Auto Add failed. User ID is not numeric.</value>
+  </data>
+  <data name="strRecordWarnCloseByForce" xml:space="preserve">
+    <value>Forced Close</value>
+  </data>
+  <data name="strDateTimeFormatErr" xml:space="preserve">
+    <value>Date format error!</value>
+  </data>
+  <data name="strAreYouSureUpdate" xml:space="preserve">
+    <value>Are you sure to update</value>
+  </data>
+  <data name="strInfact" xml:space="preserve">
+    <value>, But in fact </value>
+  </data>
+  <data name="strInDoor" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="strAutoAddCard" xml:space="preserve">
+    <value>Auto Add Cards</value>
+  </data>
+  <data name="strNotArrange" xml:space="preserve">
+    <value>No arranged shift or arranged shift is not full</value>
+  </data>
+  <data name="strSwipeGap" xml:space="preserve">
+    <value>Verification Gap</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuManualCardRecord" xml:space="preserve">
+    <value>Manual
+Sign</value>
+  </data>
+  <data name="strGotRecords" xml:space="preserve">
+    <value>Got Records</value>
+  </data>
+  <data name="strMsgYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuSystemCharacteristic" xml:space="preserve">
+    <value>System 
+Characteristic</value>
+  </data>
+  <data name="strNameDuplicated" xml:space="preserve">
+    <value>Name is duplicated.</value>
+  </data>
+  <data name="strDepartNameTooLong" xml:space="preserve">
+    <value>Name is too long.</value>
+  </data>
+  <data name="strCardNotExisted" xml:space="preserve">
+    <value>Card does not exist.</value>
+  </data>
+  <data name="strRecordWarnGuardAgainstTheft" xml:space="preserve">
+    <value>Guard Against Theft</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuLogQuery" xml:space="preserve">
+    <value>Log Query</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_FIRSTCARD" xml:space="preserve">
+    <value>Denied Access: Master open</value>
+  </data>
+  <data name="strWarnThreateCode" xml:space="preserve">
+    <value>Threate Code</value>
+  </data>
+  <data name="strFunctionDisplayName_btnZoneManage" xml:space="preserve">
+    <value>Zone Manage</value>
+  </data>
+  <data name="strDoorOpenTooLong" xml:space="preserve">
+    <value>Open too long</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuCardLost" xml:space="preserve">
+    <value>Lost card register</value>
+  </data>
+  <data name="strRestorAllSwipeRecords" xml:space="preserve">
+    <value>Restore All Access Records</value>
+  </data>
+  <data name="strPrivateLeave" xml:space="preserve">
+    <value>Private Leave</value>
+  </data>
+  <data name="strNumericWrong" xml:space="preserve">
+    <value>Numeric Wrong</value>
+  </data>
+  <data name="strFriday_Short" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="strReplaceDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="strRegisterAgain" xml:space="preserve">
+    <value>Register Again</value>
+  </data>
+  <data name="strAdjustTime" xml:space="preserve">
+    <value>Adjust Time</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_LIMITEDPERSONSINDOOR" xml:space="preserve">
+    <value>Denied Access: Limited person indoor</value>
+  </data>
+  <data name="strCheckCard" xml:space="preserve">
+    <value>Please check whether the card number is correct.</value>
+  </data>
+  <data name="strFloorPrivilege3" xml:space="preserve">
+    <value>Privilege</value>
+  </data>
+  <data name="strFloorPrivilege2" xml:space="preserve">
+    <value>Privilege</value>
+  </data>
+  <data name="strFileDirectoryNotVisited" xml:space="preserve">
+    <value>File or directory not found</value>
+  </data>
+  <data name="strConsumerNameWrong" xml:space="preserve">
+    <value>User name is required.</value>
+  </data>
+  <data name="strSunday_Short" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="strSpecialCardSuper" xml:space="preserve">
+    <value>Super Card</value>
+  </data>
+  <data name="strBasicOperate" xml:space="preserve">
+    <value>Basic Operate</value>
+  </data>
+  <data name="strHoliday_Sunday" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="strMonitoring" xml:space="preserve">
+    <value>Monitoring</value>
+  </data>
+  <data name="strWarnForcedOpen" xml:space="preserve">
+    <value>Forced Open</value>
+  </data>
+  <data name="strWarnForcedLock" xml:space="preserve">
+    <value>Forced Lock</value>
+  </data>
+  <data name="strRecordThreatClose" xml:space="preserve">
+    <value>Threat Close</value>
+  </data>
+  <data name="strDoorControl_NC" xml:space="preserve">
+    <value>Normal Close</value>
+  </data>
+  <data name="strDoorControl_NO" xml:space="preserve">
+    <value>Normal Open</value>
+  </data>
+  <data name="strReplaceDepartment2" xml:space="preserve">
+    <value>Dept</value>
+  </data>
+  <data name="strRecordThreatOpen" xml:space="preserve">
+    <value>Threat Open</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_INTERLOCK" xml:space="preserve">
+    <value>Denied Access: Interlock</value>
+  </data>
+  <data name="strUnknown" xml:space="preserve">
+    <value>Unkown error. Please contact the administrator or provider.</value>
+  </data>
+  <data name="strCardNOIsAdded" xml:space="preserve">
+    <value> is existed.</value>
+  </data>
+  <data name="strStopComm" xml:space="preserve">
+    <value>Stop Commumication</value>
+  </data>
+  <data name="strInputCompanyName" xml:space="preserve">
+    <value>Please input company name</value>
+  </data>
+  <data name="strRegisterSNWrong" xml:space="preserve">
+    <value>The serial number is incorrect.</value>
+  </data>
+  <data name="strPatrolErrPatrolTime" xml:space="preserve">
+    <value>Error: Next Day and Patrol Time</value>
+  </data>
+  <data name="strDoorsNum" xml:space="preserve">
+    <value>Doors Count</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuAbout" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuLeave" xml:space="preserve">
+    <value>Leave/
+Business Trip</value>
+  </data>
+  <data name="strTimeInvalidParm" xml:space="preserve">
+    <value>Date value invalid</value>
+  </data>
+  <data name="strTaskListOver" xml:space="preserve">
+    <value>Task number is up to 400.</value>
+  </data>
+  <data name="strOperateDate" xml:space="preserve">
+    <value>Operating Date: </value>
+  </data>
+  <data name="strMapNameDuplicated" xml:space="preserve">
+    <value>Map name is duplicated. Failed to add map</value>
+  </data>
+  <data name="strTitleHouse" xml:space="preserve">
+    <value>Apartment Management System</value>
+  </data>
+  <data name="strErrDataFlash" xml:space="preserve">
+    <value>DFLASH</value>
+  </data>
+  <data name="strShiftNormalConfigure" xml:space="preserve">
+    <value>Normal Shift Configuration</value>
+  </data>
+  <data name="strGuardAgainstTheft" xml:space="preserve">
+    <value>Guard Against Theft</value>
+  </data>
+  <data name="strDelAddAndUploadFail" xml:space="preserve">
+    <value>Upload failed. Please upload on the Monitor.</value>
+  </data>
+  <data name="strMoreCards" xml:space="preserve">
+    <value>Authentication
+Mode</value>
+  </data>
+  <data name="strUploadFail_200K" xml:space="preserve">
+    <value>Upload failed. The number of privileges must be less than 200K.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1Tool" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="strMeetingNameIsDupliated" xml:space="preserve">
+    <value>Meeting name is duplicated.</value>
+  </data>
+  <data name="strRecordRemoteOpenDoor" xml:space="preserve">
+    <value>Remote Open Door</value>
+  </data>
+  <data name="strValWrong" xml:space="preserve">
+    <value>The controller serial number, door names and reader names are requred to be unique.</value>
+  </data>
+  <data name="strFirmware" xml:space="preserve">
+    <value>Firmware Version</value>
+  </data>
+  <data name="strCommPacketSent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="strCommPacketLost" xml:space="preserve">
+    <value>Lost</value>
+  </data>
+  <data name="strElevatorMoreFloors" xml:space="preserve">
+    <value>&lt;More...&gt;</value>
+  </data>
+  <data name="strForceWarn" xml:space="preserve">
+    <value>Threat Code</value>
+  </data>
+  <data name="strLeaveBusinessTrip" xml:space="preserve">
+    <value>Leave/Business Trip</value>
+  </data>
+  <data name="strDisplaySize" xml:space="preserve">
+    <value>Display Size</value>
+  </data>
+  <data name="strFunctionDisplayName_cmdOperatorManage" xml:space="preserve">
+    <value>Operator
+Management</value>
+  </data>
+  <data name="strDontGoOff" xml:space="preserve">
+    <value>Dont Go Off</value>
+  </data>
+  <data name="strNoSwiping" xml:space="preserve">
+    <value>No Swiping</value>
+  </data>
+  <data name="strPasswordNotSame" xml:space="preserve">
+    <value>The password was not correctly confirmed. Please ensure that the password and confirmation match exactly.</value>
+  </data>
+  <data name="strInputBuildingCompanyName" xml:space="preserve">
+    <value>Please input building company name</value>
+  </data>
+  <data name="strRecordSuperPasswordClose" xml:space="preserve">
+    <value>Super Password Close</value>
+  </data>
+  <data name="strMinutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="strAlreadyRegistered" xml:space="preserve">
+    <value>Already registered</value>
+  </data>
+  <data name="strPatrolPointFirstTimeNextDay" xml:space="preserve">
+    <value>The first point patrol time must not be in next day</value>
+  </data>
+  <data name="strWarnDesc" xml:space="preserve">
+    <value>Warn</value>
+  </data>
+  <data name="strRecordDeniedAccessERRPASSWORD" xml:space="preserve">
+    <value>Denied Access: Wrong Password</value>
+  </data>
+  <data name="strRegisterAlready" xml:space="preserve">
+    <value>[Registered]</value>
+  </data>
+  <data name="strDoorInformation" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="strNotReadCard" xml:space="preserve">
+    <value>Not Swipe</value>
+  </data>
+  <data name="strUnRegistered" xml:space="preserve">
+    <value>Unregistered</value>
+  </data>
+  <data name="strRegisterFailed" xml:space="preserve">
+    <value>Register failed.</value>
+  </data>
+  <data name="strLockSwitch" xml:space="preserve">
+    <value>Door As Switch</value>
+  </data>
+  <data name="strSNAlreadyUsed" xml:space="preserve">
+    <value>The Controller SN has already been assigned.</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_LIMITEDTIMES" xml:space="preserve">
+    <value>Denied Access: Limited times</value>
+  </data>
+  <data name="strMeetingSubTotal" xml:space="preserve">
+    <value>Sub Total</value>
+  </data>
+  <data name="strQueryCardRecords" xml:space="preserve">
+    <value>Query Access Records</value>
+  </data>
+  <data name="strGetCardRecords" xml:space="preserve">
+    <value>Download access records</value>
+  </data>
+  <data name="strFirstCard" xml:space="preserve">
+    <value>First Card Open</value>
+  </data>
+  <data name="strDeleteSelected" xml:space="preserve">
+    <value>Delete the selected items, the number =</value>
+  </data>
+  <data name="strLaterThanNow" xml:space="preserve">
+    <value>The time when user entered in is later than PC time.</value>
+  </data>
+  <data name="strCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="strSaveAsConfigureFile" xml:space="preserve">
+    <value>Save As Configure File</value>
+  </data>
+  <data name="strConsole" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="strPwdChanged" xml:space="preserve">
+    <value>Changed</value>
+  </data>
+  <data name="strAttendanceSetup" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="strDirectSetDoorControl" xml:space="preserve">
+    <value>Direct Set DoorControl=</value>
+  </data>
+  <data name="strComputer" xml:space="preserve">
+    <value>Computer</value>
+  </data>
+  <data name="strRecordRemoteOpenDoor_ByUSBReader" xml:space="preserve">
+    <value>Remote Open Door By USB Reader, CardID=</value>
+  </data>
+  <data name="strNeedSuperPrivilege" xml:space="preserve">
+    <value>Need Super Privilege</value>
+  </data>
+  <data name="strController" xml:space="preserve">
+    <value>Controllers</value>
+  </data>
+  <data name="strCommLose" xml:space="preserve">
+    <value>Lost packet</value>
+  </data>
+  <data name="strCommFail" xml:space="preserve">
+    <value>Communication failed</value>
+  </data>
+  <data name="strDoorStatus_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="strMeetingSystemDate" xml:space="preserve">
+    <value>System Date</value>
+  </data>
+  <data name="strRecordPushButtonInvalid_Disable" xml:space="preserve">
+    <value>Push Button Invalid: Disable</value>
+  </data>
+  <data name="strOnDutyDesc" xml:space="preserve">
+    <value>On Desc</value>
+  </data>
+  <data name="strUsersNum" xml:space="preserve">
+    <value>Total Number of User</value>
+  </data>
+  <data name="strPwdUnChanged" xml:space="preserve">
+    <value>Unchanged</value>
+  </data>
+  <data name="strInvalidReadTimes" xml:space="preserve">
+    <value>Invalid SwipeTimes.</value>
+  </data>
+  <data name="strErrParam" xml:space="preserve">
+    <value>Param</value>
+  </data>
+  <data name="strArrangeShiftIDNotExisted" xml:space="preserve">
+    <value>The arranged shift does not exist.</value>
+  </data>
+  <data name="strRecordPushButtonInvalid_ForcedLock" xml:space="preserve">
+    <value>Push Button Invalid: Forced lock</value>
+  </data>
+  <data name="strShiftRule" xml:space="preserve">
+    <value>Other Shift Rules</value>
+  </data>
+  <data name="strRecordSuperPasswordDoorOpen" xml:space="preserve">
+    <value>Super Password Open Door</value>
+  </data>
+  <data name="strShiftData" xml:space="preserve">
+    <value>Other Shift Schedule</value>
+  </data>
+  <data name="strPersonNameNotEmpty" xml:space="preserve">
+    <value>Name must be not empty.</value>
+  </data>
+  <data name="strIPAddrWrong" xml:space="preserve">
+    <value>The IP Addr is incorrect.</value>
+  </data>
+  <data name="strWiFiSsidWrong" xml:space="preserve">
+    <value>The WiFi SSID is incorrect.</value>
+  </data>
+  <data name="strShift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="strSuper" xml:space="preserve">
+    <value>Super</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuTaskList" xml:space="preserve">
+    <value>Task List</value>
+  </data>
+  <data name="strRecordSwipeWithCount4Floor" xml:space="preserve">
+    <value>Floor NO.=</value>
+  </data>
+  <data name="strGoOff" xml:space="preserve">
+    <value>Go Off </value>
+  </data>
+  <data name="strFloor" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="strMsgNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="strMsgOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="strOffDutyDesc" xml:space="preserve">
+    <value>Off Desc</value>
+  </data>
+  <data name="strOperationCanceled" xml:space="preserve">
+    <value>Operation was canceled</value>
+  </data>
+  <data name="strSwipeStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="strMapFileNull" xml:space="preserve">
+    <value>Map file must not be empty</value>
+  </data>
+  <data name="strRecordDeniedAccessDOORNC" xml:space="preserve">
+    <value>Denied Access: Door Set NC</value>
+  </data>
+  <data name="strCommLargePacketReadFailed" xml:space="preserve">
+    <value>Large packet read failed</value>
+  </data>
+  <data name="strFindComplete" xml:space="preserve">
+    <value>Finding is complete.</value>
+  </data>
+  <data name="strInputRegisterSN" xml:space="preserve">
+    <value>Please input register SN:</value>
+  </data>
+  <data name="strFunctionDisplayName_cmdChangePasswor" xml:space="preserve">
+    <value>Change
+Password</value>
+  </data>
+  <data name="strControllerSN" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="strNewPwdNotAsSameInSystem" xml:space="preserve">
+    <value>The New Password is not same as the comm password of the system. Please check.</value>
+  </data>
+  <data name="strReplaceFloorRoom" xml:space="preserve">
+    <value>Bulding Room</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuMonitor" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_SWIPEGAPLIMIT" xml:space="preserve">
+    <value>Denied Access: Verification gap limit</value>
+  </data>
+  <data name="strMapNameNull" xml:space="preserve">
+    <value>Map name must not be empty</value>
+  </data>
+  <data name="strNoControllerInfo2Base" xml:space="preserve">
+    <value>Please check connection.</value>
+  </data>
+  <data name="strAccessDatabaseNotConnected" xml:space="preserve">
+    <value>Access database does not exist. Please check.</value>
+  </data>
+  <data name="strAddController" xml:space="preserve">
+    <value>Add Controller</value>
+  </data>
+  <data name="strSetCommPassword" xml:space="preserve">
+    <value>Set communication password for the controllers</value>
+  </data>
+  <data name="strControllerNOAlreadyUsed" xml:space="preserve">
+    <value>The Controller No. has already been assigned.</value>
+  </data>
+  <data name="strWrongTimeSegment" xml:space="preserve">
+    <value>Wrong Time Segments:</value>
+  </data>
+  <data name="strtotalPerson4AntibackShare" xml:space="preserve">
+    <value>Persons Inside</value>
+  </data>
+  <data name="strNeedShift" xml:space="preserve">
+    <value>Need at least one shift.</value>
+  </data>
+  <data name="strControlTaskList" xml:space="preserve">
+    <value>Task List Or First Card</value>
+  </data>
+  <data name="strUploadPreparing" xml:space="preserve">
+    <value>Preparing upload data</value>
+  </data>
+  <data name="strDoorControl_OnLine" xml:space="preserve">
+    <value>OnLine</value>
+  </data>
+  <data name="strFloorPrivilege" xml:space="preserve">
+    <value>Privilege</value>
+  </data>
+  <data name="strFunctionDisplayName_btnMaps" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="strHoliday" xml:space="preserve">
+    <value>Holiday</value>
+  </data>
+  <data name="strPwdNotSame" xml:space="preserve">
+    <value>The passwords do not match. Please enter correct password.</value>
+  </data>
+  <data name="strAllowableAccess" xml:space="preserve">
+    <value>Allowable Access</value>
+  </data>
+  <data name="strRegistered" xml:space="preserve">
+    <value>Registered</value>
+  </data>
+  <data name="strPrivileges" xml:space="preserve">
+    <value>Privielges</value>
+  </data>
+  <data name="strPM" xml:space="preserve">
+    <value>P.M.</value>
+  </data>
+  <data name="strTo" xml:space="preserve">
+    <value>  To  </value>
+  </data>
+  <data name="strAM" xml:space="preserve">
+    <value>A.M.</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_ANTIBACK" xml:space="preserve">
+    <value>Denied Access: Antipass-back</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPrivilege" xml:space="preserve">
+    <value>Access
+Privilege</value>
+  </data>
+  <data name="strEvaluation" xml:space="preserve">
+    <value>Only for Evaluation</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuMeeting" xml:space="preserve">
+    <value>Meeting
+Sign</value>
+  </data>
+  <data name="strAntibackShare" xml:space="preserve">
+    <value>Antipass-back Share</value>
+  </data>
+  <data name="strReplaceWorkNO" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="strRecordDeniedAccessPCControl" xml:space="preserve">
+    <value>Denied Access: PC Control</value>
+  </data>
+  <data name="strRecordThreat" xml:space="preserve">
+    <value>Threat</value>
+  </data>
+  <data name="strFirstOnDuty" xml:space="preserve">
+    <value> First On Duty </value>
+  </data>
+  <data name="strFloorShort" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="strMealTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="strReplaceNO" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="strCommLargePacketTryTimes" xml:space="preserve">
+    <value>Try Times Count</value>
+  </data>
+  <data name="strMealName2" xml:space="preserve">
+    <value>Evening</value>
+  </data>
+  <data name="strMealName3" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="strMealName0" xml:space="preserve">
+    <value>Morning</value>
+  </data>
+  <data name="strMealName1" xml:space="preserve">
+    <value>Lunch</value>
+  </data>
+  <data name="strInvalidCardWarn" xml:space="preserve">
+    <value>Invalid Card Swiping</value>
+  </data>
+  <data name="strTaskNum" xml:space="preserve">
+    <value>Task Count</value>
+  </data>
+  <data name="strOperatorHaveNoPrivilege" xml:space="preserve">
+    <value>The user has no privilege to run the application.</value>
+  </data>
+  <data name="strRecordSuperPasswordOpen" xml:space="preserve">
+    <value>Super Password Open</value>
+  </data>
+  <data name="strDoorControl" xml:space="preserve">
+    <value>Door Control</value>
+  </data>
+  <data name="strShiftSet" xml:space="preserve">
+    <value>Other Shift Types</value>
+  </data>
+  <data name="strRecordDeniedAccessNOPRIVILEGE" xml:space="preserve">
+    <value>Denied Access: No Privilege</value>
+  </data>
+  <data name="strElevatorController" xml:space="preserve">
+    <value>One To More Controller</value>
+  </data>
+  <data name="strPasswordKeypad" xml:space="preserve">
+    <value>Password Keypad</value>
+  </data>
+  <data name="strLeaveEarly" xml:space="preserve">
+    <value>LeaveEarly</value>
+  </data>
+  <data name="strDeniedAccess" xml:space="preserve">
+    <value>Denied Access</value>
+  </data>
+  <data name="strIDWrong" xml:space="preserve">
+    <value>The Controller No. must be numeric.</value>
+  </data>
+  <data name="strAreYouSureAutoAddCard" xml:space="preserve">
+    <value>Are you sure to add cards</value>
+  </data>
+  <data name="strRecordButtonEvent" xml:space="preserve">
+    <value>Record Button Events</value>
+  </data>
+  <data name="strUsersFileInvalid" xml:space="preserve">
+    <value>User file is invalid</value>
+  </data>
+  <data name="strElevator" xml:space="preserve">
+    <value>One To More</value>
+  </data>
+  <data name="strSelectDoor4Query" xml:space="preserve">
+    <value>Please Select Doors.</value>
+  </data>
+  <data name="strHoliday_PM" xml:space="preserve">
+    <value>P.M.</value>
+  </data>
+  <data name="strHoliday_AM" xml:space="preserve">
+    <value>A.M.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuAttendenceData" xml:space="preserve">
+    <value>Attendance 
+Report</value>
+  </data>
+  <data name="strPatrolPointAddFailed" xml:space="preserve">
+    <value>Failed to add patrol point</value>
+  </data>
+  <data name="strGetSwipeRecordOK" xml:space="preserve">
+    <value>Getting access record successfully</value>
+  </data>
+  <data name="strShiftNormalParamSet2" xml:space="preserve">
+    <value>The on-duty time must be earlier than the off-duty time.</value>
+  </data>
+  <data name="strShiftNormalParamSet1" xml:space="preserve">
+    <value>The time of label 1 must be less than the time of label 2.</value>
+  </data>
+  <data name="strWeekday" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="strDoorStatus" xml:space="preserve">
+    <value>Door Status</value>
+  </data>
+  <data name="strNameNotEmpty" xml:space="preserve">
+    <value>Name must not be empty.</value>
+  </data>
+  <data name="strElevatorController2" xml:space="preserve">
+    <value>Elevator Controller</value>
+  </data>
+  <data name="strElevatorController3" xml:space="preserve">
+    <value>Locker Controller</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuMoreCards" xml:space="preserve">
+    <value>Group
+Access</value>
+  </data>
+  <data name="strShouldBe" xml:space="preserve">
+    <value>should be </value>
+  </data>
+  <data name="strBasicConfigure" xml:space="preserve">
+    <value>Basic Configure</value>
+  </data>
+  <data name="strSelectMaxRecID" xml:space="preserve">
+    <value>Select Max RecID</value>
+  </data>
+  <data name="strRecordSwipeWithCount4MultiFloor1" xml:space="preserve">
+    <value>Multi Foor</value>
+  </data>
+  <data name="strDepartment" xml:space="preserve">
+    <value>Dept</value>
+  </data>
+  <data name="strAutoAddController" xml:space="preserve">
+    <value>Auto Add Controllers</value>
+  </data>
+  <data name="strRecordSwipeWithCount" xml:space="preserve">
+    <value>Verification Times=</value>
+  </data>
+  <data name="strRecordPushButtonOpen" xml:space="preserve">
+    <value>Push Button Open</value>
+  </data>
+  <data name="strBusinessTrip" xml:space="preserve">
+    <value>Business Trip</value>
+  </data>
+  <data name="strElevator2" xml:space="preserve">
+    <value>Elevator</value>
+  </data>
+  <data name="strElevator3" xml:space="preserve">
+    <value>Locker</value>
+  </data>
+  <data name="strAccessPrivilege" xml:space="preserve">
+    <value>Access Privilege</value>
+  </data>
+  <data name="strUploadBasicConfigureOK" xml:space="preserve">
+    <value>Uploaded basic configuration successfully</value>
+  </data>
+  <data name="strDoorStatus_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="strWarnARM" xml:space="preserve">
+    <value>ARM</value>
+  </data>
+  <data name="strRealtimeWatch" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="strCloseByForce" xml:space="preserve">
+    <value>Forced Lock</value>
+  </data>
+  <data name="strOvertime" xml:space="preserve">
+    <value>Overtime</value>
+  </data>
+  <data name="strUploadStart" xml:space="preserve">
+    <value>Starting upload ...</value>
+  </data>
+  <data name="strPMOnDuty" xml:space="preserve">
+    <value>P.M. OnDuty</value>
+  </data>
+  <data name="strUploadAllOK" xml:space="preserve">
+    <value>Uploaded all successfully</value>
+  </data>
+  <data name="strArrangedInvalidShiftID" xml:space="preserve">
+    <value>The arranged shift ID is not valid.</value>
+  </data>
+  <data name="strNeedAdjustTime" xml:space="preserve">
+    <value>Need to Adjust Time</value>
+  </data>
+  <data name="strEnterWithoutSwiping" xml:space="preserve">
+    <value>Enter without Swiping</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_INORDER" xml:space="preserve">
+    <value>Denied Access: In order</value>
+  </data>
+  <data name="strRealtimeGetSwipeRecordStart" xml:space="preserve">
+    <value>Starting to get realtime access record...</value>
+  </data>
+  <data name="strGetRecordsBeforeCreateReport" xml:space="preserve">
+    <value>Please get records before creating report.</value>
+  </data>
+  <data name="strNoAccessPrivilege4SelectedDoors" xml:space="preserve">
+    <value>No Access Privilege for the selected doors</value>
+  </data>
+  <data name="strRebootController" xml:space="preserve">
+    <value>Please reboot the controller!</value>
+  </data>
+  <data name="strTranslateValueInvavid" xml:space="preserve">
+    <value>OtherLanguage Value must not be empty!</value>
+  </data>
+  <data name="strPasswordWarn" xml:space="preserve">
+    <value>The password must be number and up to 999999.</value>
+  </data>
+  <data name="strRecordWarnLeftOpen" xml:space="preserve">
+    <value>Open too long</value>
+  </data>
+  <data name="strInterLockShare" xml:space="preserve">
+    <value>Inter Lock Share</value>
+  </data>
+  <data name="strPatrolEventNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="strInvalidShiftID" xml:space="preserve">
+    <value>The shift id is invalid.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuHolidaySet" xml:space="preserve">
+    <value>Holiday</value>
+  </data>
+  <data name="strLongDateFormat" xml:space="preserve">
+    <value>Long Date Format</value>
+  </data>
+  <data name="strMeetingIdentity5" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="strMeetingIdentity4" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="strMeetingIdentity3" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="strMeetingIdentity2" xml:space="preserve">
+    <value>Invitational</value>
+  </data>
+  <data name="strMeetingIdentity1" xml:space="preserve">
+    <value>Nonvoting Delegate</value>
+  </data>
+  <data name="strMeetingIdentity0" xml:space="preserve">
+    <value>Delegate</value>
+  </data>
+  <data name="strRecordPushButtonClose" xml:space="preserve">
+    <value>Push Button Close</value>
+  </data>
+  <data name="strCreateInAdvance" xml:space="preserve">
+    <value>Please create the attendance report in advance</value>
+  </data>
+  <data name="strDoorDelay" xml:space="preserve">
+    <value>Door_Delay(Sec)</value>
+  </data>
+  <data name="strWarnReset" xml:space="preserve">
+    <value>WarnReset</value>
+  </data>
+  <data name="strIndexInFlash" xml:space="preserve">
+    <value>IndexInFlash</value>
+  </data>
+  <data name="strSpecialCardMother" xml:space="preserve">
+    <value>Mother Card</value>
+  </data>
+  <data name="strTranslateFileSelect" xml:space="preserve">
+    <value>Please select a translated file.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuExtendedFunction" xml:space="preserve">
+    <value>Extended
+Functions</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuGroups" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="strFreeTime" xml:space="preserve">
+    <value>Free Time</value>
+  </data>
+  <data name="strMealNoRecords" xml:space="preserve">
+    <value>No Records</value>
+  </data>
+  <data name="strDepartmentIsEmpty" xml:space="preserve">
+    <value>(Department is Empty)</value>
+  </data>
+  <data name="strDisableControlSeg" xml:space="preserve">
+    <value>Disable Time Profile</value>
+  </data>
+  <data name="strExportRecordsMax" xml:space="preserve">
+    <value>(Max: 65535)</value>
+  </data>
+  <data name="strControllerEndNo" xml:space="preserve">
+    <value>Controller End No.</value>
+  </data>
+  <data name="strUserFileSelect" xml:space="preserve">
+    <value>Please select  user file.</value>
+  </data>
+  <data name="strAccessControl" xml:space="preserve">
+    <value>Access Control</value>
+  </data>
+  <data name="strRebootController4Restore" xml:space="preserve">
+    <value>Please reboot the controller and then click OK!</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1DoorControl" xml:space="preserve">
+    <value>Access Control</value>
+  </data>
+  <data name="strRecordPushButtonInvalid_INTERLOCK" xml:space="preserve">
+    <value>Push Button Invalid: Interlock</value>
+  </data>
+  <data name="strMeetingSelectReaderAsSign" xml:space="preserve">
+    <value>Please select readers as sign</value>
+  </data>
+  <data name="strHttpWEBWrong" xml:space="preserve">
+    <value>Should not be 60000 or not same as Comm Port!</value>
+  </data>
+  <data name="strFireSignalShare" xml:space="preserve">
+    <value>Fire Signal Share</value>
+  </data>
+  <data name="strMeetingMismatch" xml:space="preserve">
+    <value>mismatch.  Are you sure to continue</value>
+  </data>
+  <data name="strGetSwipeRecordStart" xml:space="preserve">
+    <value>Starting getting access record …</value>
+  </data>
+  <data name="strDisplayHideLogin" xml:space="preserve">
+    <value>[Tools] -&gt; [Option]  display getting started</value>
+  </data>
+  <data name="strSelectController" xml:space="preserve">
+    <value>Please Select a Controller</value>
+  </data>
+  <data name="strWarnFireAlarm" xml:space="preserve">
+    <value>Fire Alarm</value>
+  </data>
+  <data name="strWednesday_Short" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="strRecordDoorClosed" xml:space="preserve">
+    <value>Door Closed</value>
+  </data>
+  <data name="strUpdateSuccessfully" xml:space="preserve">
+    <value>Update successfully. Please exit and restart the software.
+		Do you want to restart now?</value>
+  </data>
+  <data name="strNeedUploadControlTimeSeg" xml:space="preserve">
+    <value>Must upload after updating.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuManual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="strEditOperatePrivilegeForbidden" xml:space="preserve">
+    <value>The privilege of the operator is forbidden to edit.</value>
+  </data>
+  <data name="strCreateLog" xml:space="preserve">
+    <value>Creating Attendance Report Log:</value>
+  </data>
+  <data name="strFloorConfigure2" xml:space="preserve">
+    <value>Floor Configure</value>
+  </data>
+  <data name="strFloorConfigure3" xml:space="preserve">
+    <value>Locker Configure</value>
+  </data>
+  <data name="strSqlRunFail" xml:space="preserve">
+    <value>Database operation failed.</value>
+  </data>
+  <data name="strPMOffDuty" xml:space="preserve">
+    <value>P.M. OffDuty</value>
+  </data>
+  <data name="strWEBEnabled" xml:space="preserve">
+    <value>WEB Enabled</value>
+  </data>
+  <data name="strInvalidPhotoDirectory" xml:space="preserve">
+    <value>Invalid photo directory. Please enter English alphabet or numeric.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuOption" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="strAttDetailReport" xml:space="preserve">
+    <value>Attendance Report</value>
+  </data>
+  <data name="strIEVersion" xml:space="preserve">
+    <value>Internet Explorer Version</value>
+  </data>
+  <data name="strSuccessfully" xml:space="preserve">
+    <value>Successfully</value>
+  </data>
+  <data name="strRecordPowerOn" xml:space="preserve">
+    <value>Controller Power On</value>
+  </data>
+  <data name="strShiftTimeOver24" xml:space="preserve">
+    <value>The shift time is over 24 hours.</value>
+  </data>
+  <data name="strUploadingPrivileges" xml:space="preserve">
+    <value>Uploading Privileges …</value>
+  </data>
+  <data name="strUploadedPrivileges" xml:space="preserve">
+    <value>Uploaded successfully --</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuTotalControl" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="strReadDate" xml:space="preserve">
+    <value>Read Date</value>
+  </data>
+  <data name="strFloorShort2" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="strFloorShort3" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="strAMOnDuty" xml:space="preserve">
+    <value>A.M. OnDuty</value>
+  </data>
+  <data name="strErrRealClock" xml:space="preserve">
+    <value>RealClock</value>
+  </data>
+  <data name="strSNWrong" xml:space="preserve">
+    <value>The Controller SN is incorrect. Please check and input again.</value>
+  </data>
+  <data name="strHoliday_Saturday" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="strAddUsers" xml:space="preserve">
+    <value>Add Users</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuFirstCard" xml:space="preserve">
+    <value>First Card Open</value>
+  </data>
+  <data name="strPatrolEventEarly" xml:space="preserve">
+    <value>Early</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="strErrPwdOrName" xml:space="preserve">
+    <value>Incorrect User or password. Please input again!!!</value>
+  </data>
+  <data name="strRecordSwipeClose" xml:space="preserve">
+    <value>Verification Close</value>
+  </data>
+  <data name="strRecordWarnOpenByForce" xml:space="preserve">
+    <value>Forced Open</value>
+  </data>
+  <data name="strMsgIgnore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuRealtimeGetRecords" xml:space="preserve">
+    <value>Realtime Get</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_LIMITEDTIMES_WITHCOUNT" xml:space="preserve">
+    <value>Denied Access: Limited times with count</value>
+  </data>
+  <data name="strExportRecords" xml:space="preserve">
+    <value>Exported Records</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuShiftArrange" xml:space="preserve">
+    <value>Other Shift 
+Schedule</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPasswordManagement" xml:space="preserve">
+    <value>Authentication
+Mode</value>
+  </data>
+  <data name="strControlTaskListText" xml:space="preserve">
+    <value>Task List</value>
+  </data>
+  <data name="strAntiBack" xml:space="preserve">
+    <value>Antipass-back</value>
+  </data>
+  <data name="strAbsence" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuConstMeal" xml:space="preserve">
+    <value>Const Meal</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuConsumers" xml:space="preserve">
+    <value>Personnel</value>
+  </data>
+  <data name="strDoorInvalidOpen" xml:space="preserve">
+    <value>Forced Open</value>
+  </data>
+  <data name="strTimeProfile" xml:space="preserve">
+    <value>Time Profile</value>
+  </data>
+  <data name="strShortDateFormat" xml:space="preserve">
+    <value>Short Date Format</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPatrolDetailData" xml:space="preserve">
+    <value>Patrol</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuShiftRule" xml:space="preserve">
+    <value>Other 
+Shift Rules</value>
+  </data>
+  <data name="strMapFileNotExist" xml:space="preserve">
+    <value>Map file does not exist</value>
+  </data>
+  <data name="strSaturday_Short" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="strExitDoor" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="strUserNonexisted" xml:space="preserve">
+    <value>User is not found.</value>
+  </data>
+  <data name="strErrTimeDiff" xml:space="preserve">
+    <value>The internval between two time segment is too short.</value>
+  </data>
+  <data name="strAdjustTimeOK" xml:space="preserve">
+    <value>Adjusted time successfully!</value>
+  </data>
+  <data name="strNeedUploadFloor" xml:space="preserve">
+    <value>Must upload after updating.</value>
+  </data>
+  <data name="strFailedNumeric999999" xml:space="preserve">
+    <value>must &lt;= 999999 and  &gt;0.</value>
+  </data>
+  <data name="strZero4Disable" xml:space="preserve">
+    <value>0=Disabled</value>
+  </data>
+  <data name="strElevatorName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="strPatrolEventAbsence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="strMeetingDate" xml:space="preserve">
+    <value>Meeting Date</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuGetCardRecords" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="strDutyDesc4" xml:space="preserve">
+    <value>Desc4</value>
+  </data>
+  <data name="strDutyDesc1" xml:space="preserve">
+    <value>Desc1</value>
+  </data>
+  <data name="strDutyDesc3" xml:space="preserve">
+    <value>Desc3</value>
+  </data>
+  <data name="strDutyDesc2" xml:space="preserve">
+    <value>Desc2</value>
+  </data>
+  <data name="strUploadFail_40K" xml:space="preserve">
+    <value>Upload failed. The number of privileges must be less than 40K.</value>
+  </data>
+  <data name="strStay" xml:space="preserve">
+    <value>Stay</value>
+  </data>
+  <data name="strRest" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="strWarn" xml:space="preserve">
+    <value>Peripheral Control</value>
+  </data>
+  <data name="strUnit" xml:space="preserve">
+    <value>records</value>
+  </data>
+  <data name="strUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="strZone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="strAddr" xml:space="preserve">
+    <value>Addr</value>
+  </data>
+  <data name="strFrom" xml:space="preserve">
+    <value>From </value>
+  </data>
+  <data name="strFire" xml:space="preserve">
+    <value>Fire Alarm</value>
+  </data>
+  <data name="strExit" xml:space="preserve">
+    <value>Are you sure to exit</value>
+  </data>
+  <data name="strHour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuShiftNormalConfigure" xml:space="preserve">
+    <value>Normal 
+Shift Rules</value>
+  </data>
+  <data name="strCommPacket" xml:space="preserve">
+    <value>Packet</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuShiftSet" xml:space="preserve">
+    <value>Other Shift 
+Types</value>
+  </data>
+  <data name="strMsgAbort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="strLateness" xml:space="preserve">
+    <value>Arrive late</value>
+  </data>
+  <data name="strMsgRetry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="strLastOffDuty" xml:space="preserve">
+    <value> Last Off Duty </value>
+  </data>
+  <data name="strSignWay0" xml:space="preserve">
+    <value>Swipe</value>
+  </data>
+  <data name="strSignWay1" xml:space="preserve">
+    <value>Manual Sign</value>
+  </data>
+  <data name="strSignWay2" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="strWelcomeToUse" xml:space="preserve">
+    <value>Production is activated. Thank you!</value>
+  </data>
+  <data name="strSqlServerNotConnected" xml:space="preserve">
+    <value>SQL Server is not installed or refuse to connect.
+    Do you want to configure now?</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1Attendence" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="strPatrolCreateLog" xml:space="preserve">
+    <value>Creating Patrol Report Log:</value>
+  </data>
+  <data name="strSignIn" xml:space="preserve">
+    <value>Manual Sign</value>
+  </data>
+  <data name="strTimeFormat" xml:space="preserve">
+    <value>Time Format</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuControllers" xml:space="preserve">
+    <value>Controller</value>
+  </data>
+  <data name="strSwipes" xml:space="preserve">
+    <value>Swipes</value>
+  </data>
+  <data name="strSystem" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="strPatrolEventLate" xml:space="preserve">
+    <value>Late</value>
+  </data>
+  <data name="strRecordDoorOpen" xml:space="preserve">
+    <value>Door Open</value>
+  </data>
+  <data name="strRecordSwipeOpen" xml:space="preserve">
+    <value>Verification Open</value>
+  </data>
+  <data name="strPatrolEventRest" xml:space="preserve">
+    <value>Rest</value>
+  </data>
+  <data name="strMsgCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="strAll" xml:space="preserve">
+    <value>(All)</value>
+  </data>
+  <data name="strErr" xml:space="preserve">
+    <value>Err</value>
+  </data>
+  <data name="strDay" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuControlSeg" xml:space="preserve">
+    <value>Time 
+Profile</value>
+  </data>
+  <data name="strUserID" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="strFingerprint" xml:space="preserve">
+    <value>Fingerprint</value>
+  </data>
+  <data name="strRegFp" xml:space="preserve">
+    <value>Register Fingerprint</value>
+  </data>
+  <data name="strCheckPixelFormat" xml:space="preserve">
+    <value>Check pixel format!</value>
+  </data>
+  <data name="strFpEnrolledSuccessfully" xml:space="preserve">
+    <value>Enrolled fingerprint successfully!</value>
+  </data>
+  <data name="strFaceEnrolledSuccessfully" xml:space="preserve">
+    <value>Enrolled face successfully!</value>
+  </data>
+  <data name="strPlaceFinger" xml:space="preserve">
+    <value>Place your finger to enroll #</value>
+  </data>
+  <data name="strTakeoffFinger" xml:space="preserve">
+    <value>Take off your finger.</value>
+  </data>
+  <data name="strCannotEnroll" xml:space="preserve">
+    <value>Cannot enroll!</value>
+  </data>
+  <data name="strCaptureTimeout" xml:space="preserve">
+    <value>Capturing timeout!</value>
+  </data>
+  <data name="strDeviceError" xml:space="preserve">
+    <value>Device error!</value>
+  </data>
+  <data name="strFeatureExtError" xml:space="preserve">
+    <value>Feature extraction error!</value>
+  </data>
+  <data name="strFingerNotFound" xml:space="preserve">
+    <value>Fingerprint is not found!</value>
+  </data>
+  <data name="strInvalidID" xml:space="preserve">
+    <value>Invalid ID value!</value>
+  </data>
+  <data name="strInvalidParam" xml:space="preserve">
+    <value>Invalid parameter</value>
+  </data>
+  <data name="strNotEnrolledID" xml:space="preserve">
+    <value>Not enrolled ID!</value>
+  </data>
+  <data name="strNotPressedFp" xml:space="preserve">
+    <value>Fingerprint is not pressed!</value>
+  </data>
+  <data name="strTimeout" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="strUnknownError" xml:space="preserve">
+    <value>Unknown error!</value>
+  </data>
+  <data name="strFpRemovedSuccessfully" xml:space="preserve">
+    <value>Removed fingerprint successfully</value>
+  </data>
+  <data name="strFaceRemovedSuccessfully" xml:space="preserve">
+    <value>Removed face successfully</value>
+  </data>
+  <data name="strRecordDeniedAccessVM" xml:space="preserve">
+    <value>Denied Access: Invalid authentication mode</value>
+  </data>
+  <data name="strHandleFailure" xml:space="preserve">
+    <value>Operation failed!</value>
+  </data>
+  <data name="strHandleSuccess" xml:space="preserve">
+    <value>Operation success!</value>
+  </data>
+  <data name="strAuthDesc" xml:space="preserve">
+    <value>f_AuthDesc</value>
+  </data>
+  <data name="strFunctionDisplayName_btnAddController" xml:space="preserve">
+    <value>1. Add
+Controller</value>
+  </data>
+  <data name="strFunctionDisplayName_btnAutoAddCardBySwiping" xml:space="preserve">
+    <value>2. Add 
+User</value>
+  </data>
+  <data name="strFunctionDisplayName_btnAddPrivilege" xml:space="preserve">
+    <value>3. Add 
+Privilege</value>
+  </data>
+  <data name="strFunctionDisplayName_cmdEditOperator" xml:space="preserve">
+    <value>Edit
+Operator</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPCCheckAccessConfigure" xml:space="preserve">
+    <value>Check Access 
+Manager</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuDoorAsSwitch" xml:space="preserve">
+    <value>Door As Switch</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuInterfaceLock" xml:space="preserve">
+    <value>Interface
+Lock</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuUpgradeFirmware" xml:space="preserve">
+    <value>Upgrade
+Firmware</value>
+  </data>
+  <data name="strConnect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="strDisconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="strCommError" xml:space="preserve">
+    <value>Communication error!</value>
+  </data>
+  <data name="strDontPoweroff" xml:space="preserve">
+    <value>Upgrading firmware... Please do not power device off!</value>
+  </data>
+  <data name="strFirmwareFilter" xml:space="preserve">
+    <value>FW File(*.bin)|*.bin</value>
+  </data>
+  <data name="strInvalidFirmware" xml:space="preserve">
+    <value>Firmware file format is wrong!</value>
+  </data>
+  <data name="strInvalidSize" xml:space="preserve">
+    <value>Firmware file size is too big!</value>
+  </data>
+  <data name="strSelectFirmware" xml:space="preserve">
+    <value>Please select firmware</value>
+  </data>
+  <data name="strUpgradeFailed" xml:space="preserve">
+    <value>Failed to upgrade firmware!</value>
+  </data>
+  <data name="strUpgradeSuccess" xml:space="preserve">
+    <value>Firmware upgrade success!</value>
+  </data>
+  <data name="strApplicationAlreadyRunning"  xml:space="preserve">
+    <value>The application is already running!</value>
+  </data>
+  <data name="strFpNone"  xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="strFpUnit"  xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="strPassAllowed"  xml:space="preserve">
+    <value>Allowed</value>
+  </data>
+  <data name="strPassDisallowed"  xml:space="preserve">
+    <value>Disallowed</value>
+  </data>
+  <data name="strWrongPeriod"  xml:space="preserve">
+    <value>Report period is invalid!</value>
+  </data>
+  <data name="strFpDuplicated"  xml:space="preserve">
+    <value>Fingerprint duplicated!</value>
+  </data>
+  <data name="strDatabaseIsFull"  xml:space="preserve">
+    <value>User database is full!</value>
+  </data>
+  <data name="strUpgradingFirmware"  xml:space="preserve">
+    <value>Upgrading firmware...</value>
+  </data>
+  <data name="strVerifNone"  xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="strVerifFinger"  xml:space="preserve">
+    <value>Fingerprint</value>
+  </data>
+  <data name="strVerifCard"  xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="strVerifPassword"  xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="strVerifFace"  xml:space="preserve">
+    <value>Face</value>
+  </data>
+  <data name="strVerifMode"  xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="strNeedToSelectDate"  xml:space="preserve">
+    <value>Please select date.</value>
+  </data>
+  <data name="strRegisterFace"  xml:space="preserve">
+    <value>Registering face: </value>
+  </data>
+  <data name="strFaceNone"  xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="strFaceRegistered"  xml:space="preserve">
+    <value>(Registered)</value>
+  </data>
+  <data name="strCapture"  xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="strPause"  xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="strOutOfMemory"  xml:space="preserve">
+    <value>Out of memory.</value>
+  </data>
+  <data name="strGrayNotCreated"  xml:space="preserve">
+    <value>Cannot create gray image.</value>
+  </data>
+  <data name="strFaceNotDetected"  xml:space="preserve">
+    <value>Cannot detect a face.</value>
+  </data>
+  <data name="strEyesNotDetected"  xml:space="preserve">
+    <value>Cannot detect the eyes.</value>
+  </data>
+  <data name="strDetailsNotDetected"  xml:space="preserve">
+    <value>Cannot detect the details.</value>
+  </data>
+  <data name="strFeaturesNotExtracted"  xml:space="preserve">
+    <value>Cannot extract the features.</value>
+  </data>
+  <data name="strTemplateNotExtracted"  xml:space="preserve">
+    <value>Cannot extract the template.</value>
+  </data>
+  <data name="strDontMoveFace"  xml:space="preserve">
+    <value>Do not move the face.</value>
+  </data>
+</root>

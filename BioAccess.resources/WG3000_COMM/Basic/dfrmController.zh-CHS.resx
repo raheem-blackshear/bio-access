@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 84</value>
+  </data>
+  <data name="txtDoorName4D.Text" xml:space="preserve">
+    <value>4호</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>3호문</value>
+  </data>
+  <data name="txtDoorName3D.Text" xml:space="preserve">
+    <value>3호</value>
+  </data>
+  <data name="optNC2B.Text" xml:space="preserve">
+    <value>항상닫기</value>
+  </data>
+  <data name="optNC2B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>읽기장치출퇴근방식</value>
+  </data>
+  <data name="optDutyOff3D.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="optDutyOff3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>3호문 내부 읽기장치</value>
+  </data>
+  <data name="optNO2D.Text" xml:space="preserve">
+    <value>항상열기</value>
+  </data>
+  <data name="optNC2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optNC2D.Text" xml:space="preserve">
+    <value>항상닫기</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>4호문</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="optDutyOff3B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOff3B.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>읽기장치특성</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>기대</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>2호문 내부 읽기장치</value>
+  </data>
+  <data name="optOnline3D.Text" xml:space="preserve">
+    <value>조종상태</value>
+  </data>
+  <data name="optOnline3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>4호문 내부 읽기장치</value>
+  </data>
+  <data name="chkAttend1B.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>2호문</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="chkAttend1A.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optNO2B.Text" xml:space="preserve">
+    <value>항상열기</value>
+  </data>
+  <data name="optDutyOn1B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOn1B.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="optIPLarge.Text" xml:space="preserve">
+    <value>중대형국부망 혹은 인터넷망</value>
+  </data>
+  <data name="optIPLarge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 16</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>1호문 내부 읽기장치</value>
+  </data>
+  <data name="txtReaderName4B.Text" xml:space="preserve">
+    <value>외부문</value>
+  </data>
+  <data name="chkAttend1D.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>문열기시간(초)</value>
+  </data>
+  <data name="optDutyOn1A.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="optDutyOn1A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>조종방식</value>
+  </data>
+  <data name="optDutyOn1D.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="optDutyOn1D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>2호문 외부 읽기장치</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>4개문단방향기대</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>2호문 내부 읽기장치</value>
+  </data>
+  <data name="optDutyOff2D.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="optDutyOff2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>1개문쌍방향기대</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>1호문 외부 읽기장치</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>*기대계렬번호:</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>소재구역:</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 234</value>
+  </data>
+  <data name="txtReaderName4D.Text" xml:space="preserve">
+    <value>내부문</value>
+  </data>
+  <data name="optDutyOff2B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOff2B.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>설명:</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>2호문</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>2개문쌍방향기대</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>*기대번호:</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>1호문 내부 읽기장치</value>
+  </data>
+  <data name="optDutyOff2A.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="optDutyOff2A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>문열기시간(초)</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="chkControllerActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="chkControllerActive.Text" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="chkDoorActive1D.Text" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="chkDoorActive1D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>* 필수항목</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="optDutyOff1D.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="optDutyOff1D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optOnline1A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optOnline1A.Text" xml:space="preserve">
+    <value>조종상태</value>
+  </data>
+  <data name="chkDoorActive1B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="chkDoorActive1B.Text" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 63</value>
+  </data>
+  <data name="chkDoorActive1A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="chkDoorActive1A.Text" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="optOnline1B.Text" xml:space="preserve">
+    <value>조종상태</value>
+  </data>
+  <data name="optOnline1B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOnOff1D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optDutyOnOff1D.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optOnline1D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optOnline1D.Text" xml:space="preserve">
+    <value>조종상태</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 131</value>
+  </data>
+  <data name="optDutyOff1B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOff1B.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="optDutyOff1A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOff1A.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="optOnline2B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optOnline2B.Text" xml:space="preserve">
+    <value>조종상태</value>
+  </data>
+  <data name="chkAttend3B.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOnOff1A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optDutyOnOff1A.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOnOff1B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optDutyOnOff1B.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOn3B.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="optDutyOn3B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="chkAttend3D.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optOnline2D.Text" xml:space="preserve">
+    <value>조종상태</value>
+  </data>
+  <data name="optOnline2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOn3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOn3D.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="btnZoneManage.Text" xml:space="preserve">
+    <value>구역관리</value>
+  </data>
+  <data name="txtReaderName3D.Text" xml:space="preserve">
+    <value>내부문</value>
+  </data>
+  <data name="optDutyOn4D.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="optDutyOn4D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>조종방식</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="chkDoorActive4D.Text" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="chkDoorActive4D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="optDutyOn4B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOn4B.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>1호문</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>문이름</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>읽기장치설정</value>
+  </data>
+  <data name="optNC1B.Text" xml:space="preserve">
+    <value>항상닫기</value>
+  </data>
+  <data name="optNC1B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>읽기장치출퇴근방식</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="txtReaderName3B.Text" xml:space="preserve">
+    <value>내부문</value>
+  </data>
+  <data name="optNC1A.Text" xml:space="preserve">
+    <value>항상닫기</value>
+  </data>
+  <data name="optNC1A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>1호문 외부 읽기장치</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>읽기장치설정</value>
+  </data>
+  <data name="chkDoorActive3D.Text" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="chkDoorActive3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>문열기시간(초)</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>1호문 내부 읽기장치</value>
+  </data>
+  <data name="optIPSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 16</value>
+  </data>
+  <data name="optIPSmall.Text" xml:space="preserve">
+    <value>소형국부망</value>
+  </data>
+  <data name="optNO1D.Text" xml:space="preserve">
+    <value>항상열기</value>
+  </data>
+  <data name="optNC1D.Text" xml:space="preserve">
+    <value>항상닫기</value>
+  </data>
+  <data name="optNC1D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>읽기장치출퇴근방식</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="optNO1B.Text" xml:space="preserve">
+    <value>항상열기</value>
+  </data>
+  <data name="optNO1A.Text" xml:space="preserve">
+    <value>항상열기</value>
+  </data>
+  <data name="txtReaderName2D.Text" xml:space="preserve">
+    <value>내부문</value>
+  </data>
+  <data name="chkAttend4D.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="txtDoorName1D.Text" xml:space="preserve">
+    <value>1호</value>
+  </data>
+  <data name="chkAttend4B.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOff4B.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="optDutyOff4B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="txtReaderName2A.Text" xml:space="preserve">
+    <value>외부문</value>
+  </data>
+  <data name="txtReaderName2B.Text" xml:space="preserve">
+    <value>외부문</value>
+  </data>
+  <data name="optDutyOff4D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOff4D.Text" xml:space="preserve">
+    <value>퇴근</value>
+  </data>
+  <data name="chkAttend2A.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOnOff2D.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOnOff2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="btnCancel2.Text" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="txtDoorName1A.Text" xml:space="preserve">
+    <value>1호</value>
+  </data>
+  <data name="optDutyOnOff2B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optDutyOnOff2B.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="txtDoorName1B.Text" xml:space="preserve">
+    <value>1호</value>
+  </data>
+  <data name="chkAttend2B.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 173</value>
+  </data>
+  <data name="chkAttend2D.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOnOff2A.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOnOff2A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optNO4D.Text" xml:space="preserve">
+    <value>항상열기</value>
+  </data>
+  <data name="optDutyOnOff4B.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOnOff4B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optDutyOnOff4D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optDutyOnOff4D.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 181</value>
+  </data>
+  <data name="optNO3D.Text" xml:space="preserve">
+    <value>항상열기</value>
+  </data>
+  <data name="optNC3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optNC3D.Text" xml:space="preserve">
+    <value>항상닫기</value>
+  </data>
+  <data name="optDutyOnOff3D.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="optDutyOnOff3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optOnline4D.Text" xml:space="preserve">
+    <value>조종상태</value>
+  </data>
+  <data name="optOnline4D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOnOff3B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="optDutyOnOff3B.Text" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="btnNext.Text" xml:space="preserve">
+    <value>다음 &gt;&gt;</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
+  </data>
+  <data name="chkDoorActive2D.Text" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="chkDoorActive2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 131</value>
+  </data>
+  <data name="optDutyOn2A.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="optDutyOn2A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOn2B.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="optDutyOn2B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="chkDoorActive2B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="chkDoorActive2B.Text" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="txtReaderName1D.Text" xml:space="preserve">
+    <value>내부문</value>
+  </data>
+  <data name="optDutyOn2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="optDutyOn2D.Text" xml:space="preserve">
+    <value>출근</value>
+  </data>
+  <data name="txtReaderName1B.Text" xml:space="preserve">
+    <value>내부문</value>
+  </data>
+  <data name="txtDoorName2D.Text" xml:space="preserve">
+    <value>2호</value>
+  </data>
+  <data name="txtDoorName2B.Text" xml:space="preserve">
+    <value>2호</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>1호문</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="txtReaderName1A.Text" xml:space="preserve">
+    <value>내부문</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>확정</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>조종방식</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>문이름</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>문이름</value>
+  </data>
+  <data name="optNC4D.Text" xml:space="preserve">
+    <value>항상닫기</value>
+  </data>
+  <data name="optNC4D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>1호문</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>IP:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>포구:</value>
+  </data>
+  <data name="chkCamera4_1.Text" xml:space="preserve">
+    <value>실시간사진</value>
+  </data>
+  <data name="chkWiFiComm.Text" xml:space="preserve">
+    <value>WiFi통신</value>
+  </data>
+  <data name="chkWiFiDhcp.Text" xml:space="preserve">
+    <value>IP주소자동얻기</value>
+  </data>
+  <data name="lblWiFiGateway.Text" xml:space="preserve">
+    <value>게이트웨이:</value>
+  </data>
+  <data name="lblWiFiIP.Text" xml:space="preserve">
+    <value>IP주소:</value>
+  </data>
+  <data name="lblWiFiKey.Text" xml:space="preserve">
+    <value>암호:</value>
+  </data>
+  <data name="lblWiFiMask.Text" xml:space="preserve">
+    <value>망마스크:</value>
+  </data>
+  <data name="lblWiFiPort.Text" xml:space="preserve">
+    <value>포구번호:</value>
+  </data>
+  <data name="lblWiFiSSID.Text" xml:space="preserve">
+    <value>망이름:</value>
+  </data>
+  <data name="chkCamera4_2.Text" xml:space="preserve">
+    <value>실시간사진</value>
+  </data>
+  <data name="chkCamera4_3.Text" xml:space="preserve">
+    <value>실시간사진</value>
+  </data>
+  <data name="chkCamera4_4.Text" xml:space="preserve">
+    <value>실시간사진</value>
+  </data>
+  <data name="btnConnect4_1.Text" xml:space="preserve">
+    <value>접속</value>
+  </data>
+  <data name="btnConnect4_2.Text" xml:space="preserve">
+    <value>접속</value>
+  </data>
+  <data name="btnConnect4_3.Text" xml:space="preserve">
+    <value>접속</value>
+  </data>
+  <data name="btnConnect4_4.Text" xml:space="preserve">
+    <value>접속</value>
+  </data>
+  <data name="chkUseM1Card.Text" xml:space="preserve">
+    <value>M1카드사용</value>
+  </data>
+  <data name="chkUseTouchSensor.Text" xml:space="preserve">
+    <value>접촉수감부사용</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="btnConnect1_1.Text" xml:space="preserve">
+    <value>접속</value>
+  </data>
+  <data name="chkCamera1_1.Text" xml:space="preserve">
+    <value>실시간사진</value>
+  </data>
+  <data name="btnConnect1_2.Text" xml:space="preserve">
+    <value>접속</value>
+  </data>
+  <data name="lblVolume.Text" xml:space="preserve">
+    <value>音量调节</value>
+  </data>
+  <data name="chkFpIdent.Text" xml:space="preserve">
+    <value>지문중복검사</value>
+  </data>
+  <data name="btnPrev.Text" xml:space="preserve">
+    <value>&lt;&lt; 이전</value>
+  </data>
+  <data name="chkFaceIdent.Text" xml:space="preserve">
+    <value>얼굴중복검사</value>
+  </data>
+</root>

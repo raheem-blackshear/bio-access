@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ffmpeg\FFMpegInstance.cpp">
+      <Filter>FFMpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\H264Decoder.cpp">
+      <Filter>FFMpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\ArrayList.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\GSFrameBuffer.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\GSLockMng.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\GSNetCommon.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\GSNetPacket.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\GSPC_Socket.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\GSPC_UI.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\GSUtilityCls.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="GSCommon\GSXMLite.cpp">
+      <Filter>GSCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Dll Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ffmpeg\FFMpegInstance.h">
+      <Filter>FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\H264Decoder.h">
+      <Filter>FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\ArrayList.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\GSFrameBuffer.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\GSLockMng.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\GSNetCommon.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\GSNetPacket.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\GSPC_Socket.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\GSPC_UI.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\GSUtilityCls.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GSCommon\GSXMLite.h">
+      <Filter>GSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Dll Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Dll Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\libavcodec\avcodec.h" />
+    <ClInclude Include="ffmpeg\libavcodec\avfft.h" />
+    <ClInclude Include="ffmpeg\libavcodec\dv_profile.h" />
+    <ClInclude Include="ffmpeg\libavcodec\dxva2.h" />
+    <ClInclude Include="ffmpeg\libavcodec\old_codec_ids.h" />
+    <ClInclude Include="ffmpeg\libavcodec\vaapi.h" />
+    <ClInclude Include="ffmpeg\libavcodec\vda.h" />
+    <ClInclude Include="ffmpeg\libavcodec\vdpau.h" />
+    <ClInclude Include="ffmpeg\libavcodec\version.h" />
+    <ClInclude Include="ffmpeg\libavcodec\xvmc.h" />
+    <ClInclude Include="ffmpeg\libavdevice\avdevice.h" />
+    <ClInclude Include="ffmpeg\libavdevice\version.h" />
+    <ClInclude Include="ffmpeg\libavfilter\asrc_abuffer.h" />
+    <ClInclude Include="ffmpeg\libavfilter\avcodec.h" />
+    <ClInclude Include="ffmpeg\libavfilter\avfilter.h" />
+    <ClInclude Include="ffmpeg\libavfilter\avfiltergraph.h" />
+    <ClInclude Include="ffmpeg\libavfilter\buffersink.h" />
+    <ClInclude Include="ffmpeg\libavfilter\buffersrc.h" />
+    <ClInclude Include="ffmpeg\libavfilter\version.h" />
+    <ClInclude Include="ffmpeg\libavformat\avformat.h" />
+    <ClInclude Include="ffmpeg\libavformat\avio.h" />
+    <ClInclude Include="ffmpeg\libavformat\version.h" />
+    <ClInclude Include="ffmpeg\libavutil\adler32.h" />
+    <ClInclude Include="ffmpeg\libavutil\aes.h" />
+    <ClInclude Include="ffmpeg\libavutil\attributes.h" />
+    <ClInclude Include="ffmpeg\libavutil\audio_fifo.h" />
+    <ClInclude Include="ffmpeg\libavutil\audioconvert.h" />
+    <ClInclude Include="ffmpeg\libavutil\avassert.h" />
+    <ClInclude Include="ffmpeg\libavutil\avconfig.h" />
+    <ClInclude Include="ffmpeg\libavutil\avstring.h" />
+    <ClInclude Include="ffmpeg\libavutil\avutil.h" />
+    <ClInclude Include="ffmpeg\libavutil\base64.h" />
+    <ClInclude Include="ffmpeg\libavutil\blowfish.h" />
+    <ClInclude Include="ffmpeg\libavutil\bprint.h" />
+    <ClInclude Include="ffmpeg\libavutil\bswap.h" />
+    <ClInclude Include="ffmpeg\libavutil\buffer.h" />
+    <ClInclude Include="ffmpeg\libavutil\channel_layout.h" />
+    <ClInclude Include="ffmpeg\libavutil\common.h" />
+    <ClInclude Include="ffmpeg\libavutil\cpu.h" />
+    <ClInclude Include="ffmpeg\libavutil\crc.h" />
+    <ClInclude Include="ffmpeg\libavutil\dict.h" />
+    <ClInclude Include="ffmpeg\libavutil\display.h" />
+    <ClInclude Include="ffmpeg\libavutil\downmix_info.h" />
+    <ClInclude Include="ffmpeg\libavutil\error.h" />
+    <ClInclude Include="ffmpeg\libavutil\eval.h" />
+    <ClInclude Include="ffmpeg\libavutil\ffversion.h" />
+    <ClInclude Include="ffmpeg\libavutil\fifo.h" />
+    <ClInclude Include="ffmpeg\libavutil\file.h" />
+    <ClInclude Include="ffmpeg\libavutil\frame.h" />
+    <ClInclude Include="ffmpeg\libavutil\hash.h" />
+    <ClInclude Include="ffmpeg\libavutil\hmac.h" />
+    <ClInclude Include="ffmpeg\libavutil\imgutils.h" />
+    <ClInclude Include="ffmpeg\libavutil\intfloat.h" />
+    <ClInclude Include="ffmpeg\libavutil\intreadwrite.h" />
+    <ClInclude Include="ffmpeg\libavutil\lfg.h" />
+    <ClInclude Include="ffmpeg\libavutil\log.h" />
+    <ClInclude Include="ffmpeg\libavutil\lzo.h" />
+    <ClInclude Include="ffmpeg\libavutil\macros.h" />
+    <ClInclude Include="ffmpeg\libavutil\mathematics.h" />
+    <ClInclude Include="ffmpeg\libavutil\md5.h" />
+    <ClInclude Include="ffmpeg\libavutil\mem.h" />
+    <ClInclude Include="ffmpeg\libavutil\motion_vector.h" />
+    <ClInclude Include="ffmpeg\libavutil\murmur3.h" />
+    <ClInclude Include="ffmpeg\libavutil\old_pix_fmts.h" />
+    <ClInclude Include="ffmpeg\libavutil\opt.h" />
+    <ClInclude Include="ffmpeg\libavutil\parseutils.h" />
+    <ClInclude Include="ffmpeg\libavutil\pixdesc.h" />
+    <ClInclude Include="ffmpeg\libavutil\pixelutils.h" />
+    <ClInclude Include="ffmpeg\libavutil\pixfmt.h" />
+    <ClInclude Include="ffmpeg\libavutil\random_seed.h" />
+    <ClInclude Include="ffmpeg\libavutil\rational.h" />
+    <ClInclude Include="ffmpeg\libavutil\replaygain.h" />
+    <ClInclude Include="ffmpeg\libavutil\ripemd.h" />
+    <ClInclude Include="ffmpeg\libavutil\samplefmt.h" />
+    <ClInclude Include="ffmpeg\libavutil\sha.h" />
+    <ClInclude Include="ffmpeg\libavutil\sha512.h" />
+    <ClInclude Include="ffmpeg\libavutil\stereo3d.h" />
+    <ClInclude Include="ffmpeg\libavutil\threadmessage.h" />
+    <ClInclude Include="ffmpeg\libavutil\time.h" />
+    <ClInclude Include="ffmpeg\libavutil\timecode.h" />
+    <ClInclude Include="ffmpeg\libavutil\timestamp.h" />
+    <ClInclude Include="ffmpeg\libavutil\version.h" />
+    <ClInclude Include="ffmpeg\libavutil\xtea.h" />
+    <ClInclude Include="ffmpeg\libpostproc\postprocess.h" />
+    <ClInclude Include="ffmpeg\libpostproc\version.h" />
+    <ClInclude Include="ffmpeg\libswresample\swresample.h" />
+    <ClInclude Include="ffmpeg\libswresample\version.h" />
+    <ClInclude Include="ffmpeg\libswscale\swscale.h" />
+    <ClInclude Include="ffmpeg\libswscale\version.h" />
+    <ClInclude Include="ffmpeg\changepic.h" />
+    <ClInclude Include="ffmpeg\inttypes.h" />
+    <ClInclude Include="ffmpeg\stdint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FFMpeg">
+      <UniqueIdentifier>{36fe8376-b039-44bd-afdd-f11a7cc4c7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GSCommon">
+      <UniqueIdentifier>{3b3fcb1b-8d2c-485e-b338-c02341bdc74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dll Files">
+      <UniqueIdentifier>{c70cc004-cb45-4bbf-8f14-15be9dc78dc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectVTRDll.vcxproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F94E5FA4-A36D-4E94-BBAF-986E70241964}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>DeviceManager</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>12.0.0</ProductVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugType>none</DebugType>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>..\bin\</OutputPath>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Optimize>True</Optimize>
+    <DebugType>none</DebugType>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketFaceTempl.cs" />
+    <Compile Include="WG3000_COMM\Core\MjFaceEntry.cs" />
+    <Compile Include="WG3000_COMM\Core\MjFaceTempl.cs" />
+    <Compile Include="WG3000_COMM\Core\MjFpEntry.cs" />
+    <Compile Include="WG3000_COMM\Core\MjFpTempl.cs" />
+    <Compile Include="WG3000_COMM\Core\MjNameInfo.cs" />
+    <Compile Include="WG3000_COMM\Core\MjRegisterCard.cs" />
+    <Compile Include="WG3000_COMM\Core\MjUserInfo.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketFpQuery.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketFpTempl.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketName.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketNameQuery.cs" />
+    <Compile Include="WG3000_COMM\Core\wgTools.cs" />
+    <Compile Include="AesLib\Aes.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjControllerTimeSegList.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjControllerSwipeOperate.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjControllerRunInformation.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjControllerConfigure.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjControllerHolidaysList.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjController.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjControllerSwipeRecord.cs" />
+    <Compile Include="WG3000_COMM\Core\MjControlTaskItem.cs" />
+    <Compile Include="WG3000_COMM\Core\MjControlHolidayTime.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjControllerPrivilege.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacket.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketBasicRunInformation4ServerToSend.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketSSI_FLASH.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketSSI_FLASH_QUERY.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketWith1152.cs" />
+    <Compile Include="WG3000_COMM\Core\OP_SSI_FLASH_Code.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacket_CALLRETURN.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacket_Type.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketBasicAutoIPSetToSend.cs" />
+    <Compile Include="WG3000_COMM\Core\wgUdpComm.cs" />
+    <Compile Include="WG3000_COMM\Core\MjControlTimeSeg.cs" />
+    <Compile Include="WG3000_COMM\Core\MjRegisterCardsParam.cs" />
+    <Compile Include="WG3000_COMM\Core\SIIFlash.cs" />
+    <Compile Include="WG3000_COMM\Core\wgCRC.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketSSI_FLASH_QUERY_internal.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketWith1024.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketWith1152_internal.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketSSI_FLASH_internal.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketPrivilege.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketBasicRunInformationToSend.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketBasicRunInformation4ServerToSend_internal.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketBasicAdjustTimeToSend.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketBasicRemoteOpenDoorToSend.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketBasicFRamSetToSend.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketBasicGetSingleSwipeRecordToSend.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacketCPU_CONFIG_READToSend.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacket_Type_internal.cs" />
+    <Compile Include="WG3000_COMM\Core\WGPacket_CALLRETURN_internal.cs" />
+    <Compile Include="WG3000_COMM\Core\OP_SSI_FLASH_Code_internal.cs" />
+    <Compile Include="WG3000_COMM\Core\OP_BASIC_Code.cs" />
+    <Compile Include="WG3000_COMM\Core\wgMjControllerTaskList.cs" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+</Project>

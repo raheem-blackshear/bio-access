@@ -1,0 +1,1862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strWarnOpenTooLong" xml:space="preserve">
+    <value>정상문열기시간초과경보</value>
+  </data>
+  <data name="strTimeOverlapped" xml:space="preserve">
+    <value>두개 교대시간이 중첩되였습니다.</value>
+  </data>
+  <data name="strFloorController" xml:space="preserve">
+    <value>기대</value>
+  </data>
+  <data name="strSelectUser" xml:space="preserve">
+    <value>사용자를 선택하여주십시오.</value>
+  </data>
+  <data name="strSelectDoor" xml:space="preserve">
+    <value>문을 선택하여주십시오.</value>
+  </data>
+  <data name="strDeletedSwipeRecordCount" xml:space="preserve">
+    <value>삭제인증기록수 =</value>
+  </data>
+  <data name="strAreYouSure" xml:space="preserve">
+    <value>진행하시겠습니까</value>
+  </data>
+  <data name="strAlreadyGotSwipeRecord" xml:space="preserve">
+    <value>기록읽기 완료</value>
+  </data>
+  <data name="strCommPacketReceived" xml:space="preserve">
+    <value>접수함</value>
+  </data>
+  <data name="strConsumerNOWrong" xml:space="preserve">
+    <value>사용자ID는 빌수 없으며 중복될수 없습니다.</value>
+  </data>
+  <data name="strConsumerWrongPin" xml:space="preserve">
+    <value>PIN번호는 중복될수 없습니다.</value>
+  </data>
+  <data name="strRecordSwipe" xml:space="preserve">
+    <value>인증문열기</value>
+  </data>
+  <data name="strRecordDoorStatusEvent" xml:space="preserve">
+    <value>문쎈서사건기록</value>
+  </data>
+  <data name="strRecordReset" xml:space="preserve">
+    <value>기대재기동</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuAdjustTime" xml:space="preserve">
+    <value>시간교정</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuControllerCommPasswordSet" xml:space="preserve">
+    <value>기대통신암호</value>
+  </data>
+  <data name="strRecordWarn24Hour" xml:space="preserve">
+    <value>연기가스온도경보</value>
+  </data>
+  <data name="strIndoorPersonsMax" xml:space="preserve">
+    <value>문내부최대인원수제한</value>
+  </data>
+  <data name="strWrongUsersFile" xml:space="preserve">
+    <value>이 파일은 사용자입력파일이 아닙니다</value>
+  </data>
+  <data name="strRealClock" xml:space="preserve">
+    <value>시계</value>
+  </data>
+  <data name="strMonitorStop" xml:space="preserve">
+    <value>감시정지.</value>
+  </data>
+  <data name="strAlreadyUploadPrivileges" xml:space="preserve">
+    <value>기본설정과 권한의 업로드가 성공되였습니다.</value>
+  </data>
+  <data name="strReArrange" xml:space="preserve">
+    <value>우선 교대를 설정하여주십시오.</value>
+  </data>
+  <data name="strControllerPassword" xml:space="preserve">
+    <value>인증방식</value>
+  </data>
+  <data name="strUpload" xml:space="preserve">
+    <value>설정업로드</value>
+  </data>
+  <data name="strThursday_Short" xml:space="preserve">
+    <value>목</value>
+  </data>
+  <data name="strControllerBeginNo" xml:space="preserve">
+    <value>기대초기계렬번호</value>
+  </data>
+  <data name="strDeleteForbidden" xml:space="preserve">
+    <value>이 관리자는 최고급관리원으로 삭제할수 없습니다!</value>
+  </data>
+  <data name="strEnterInto" xml:space="preserve">
+    <value>진입</value>
+  </data>
+  <data name="strDefaultType" xml:space="preserve">
+    <value>기정류별은 추가, 변경 혹은 삭제할수 없습니다.</value>
+  </data>
+  <data name="strAMOffDuty" xml:space="preserve">
+    <value>오전퇴근</value>
+  </data>
+  <data name="strNotIncludeBackSlash" xml:space="preserve">
+    <value>"\"부호를 포함할수 없습니다.</value>
+  </data>
+  <data name="strNotFind" xml:space="preserve">
+    <value>검색완료되였습니다. 해당한 항목을 찾을수 없습니다</value>
+  </data>
+  <data name="strTuesday_Short" xml:space="preserve">
+    <value>화</value>
+  </data>
+  <data name="strUploadPrivilegesOK" xml:space="preserve">
+    <value>권한업로드성공</value>
+  </data>
+  <data name="strSickLeave" xml:space="preserve">
+    <value>병결</value>
+  </data>
+  <data name="strNoControllerInfo3PCNotConnected" xml:space="preserve">
+    <value>검색된 기대가 없습니다. 기대망통신련결상태를 확인하십시오.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1BasicOperate" xml:space="preserve">
+    <value>기본조작</value>
+  </data>
+  <data name="strIDIsDuplicated" xml:space="preserve">
+    <value>ID가 중복되였습니다. 다시 입력해주십시오!</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuCardRecords" xml:space="preserve">
+    <value>원시기록검색</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuElevator" xml:space="preserve">
+    <value>1대다관리</value>
+  </data>
+  <data name="strGettingSwipeRecord" xml:space="preserve">
+    <value>기록 불러오기중</value>
+  </data>
+  <data name="strFunctionDisplayName_TotalControl_RemoteOpen" xml:space="preserve">
+    <value>원격문열기</value>
+  </data>
+  <data name="strSendRemoteOpenDoor" xml:space="preserve">
+    <value>원격문열기지령출력</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1BasicConfigure" xml:space="preserve">
+    <value>기본설정</value>
+  </data>
+  <data name="strRecordWarnEvent" xml:space="preserve">
+    <value>경보사건기록</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuCheckController" xml:space="preserve">
+    <value>기대검사</value>
+  </data>
+  <data name="strExportToExcel" xml:space="preserve">
+    <value>출력:</value>
+  </data>
+  <data name="strTranslateFileInvalid" xml:space="preserve">
+    <value>무효한 번역파일입니다!</value>
+  </data>
+  <data name="strFloorController2" xml:space="preserve">
+    <value>승강기</value>
+  </data>
+  <data name="strFloorController3" xml:space="preserve">
+    <value>사물함</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuDBBackup" xml:space="preserve">
+    <value>자료기지백업</value>
+  </data>
+  <data name="strOperateFailed" xml:space="preserve">
+    <value>조작실패.</value>
+  </data>
+  <data name="strRealtimeGetRecords" xml:space="preserve">
+    <value>실시간기록얻기</value>
+  </data>
+  <data name="strRealtimeGetting" xml:space="preserve">
+    <value>실시간기록을 얻고 있습니다...</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuAntiBack" xml:space="preserve">
+    <value>Antipass</value>
+  </data>
+  <data name="strCardID" xml:space="preserve">
+    <value>카드ID</value>
+  </data>
+  <data name="strEnabled" xml:space="preserve">
+    <value>적용함</value>
+  </data>
+  <data name="strNewTitle" xml:space="preserve">
+    <value>새 이름을 입력하십시오</value>
+  </data>
+  <data name="strCommOK" xml:space="preserve">
+    <value>통신정상</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_MORECARD" xml:space="preserve">
+    <value>인증통과금지: 조합인증</value>
+  </data>
+  <data name="strNotImportedUsers" xml:space="preserve">
+    <value>입력되지 않은 사용자수 = </value>
+  </data>
+  <data name="strMonday_Short" xml:space="preserve">
+    <value>월</value>
+  </data>
+  <data name="strNoControllerInfo1" xml:space="preserve">
+    <value>검색된 기대가 없습니다. 기대망통신련결상태를 확인하십시오.</value>
+  </data>
+  <data name="strDBConNotCreate" xml:space="preserve">
+    <value>자료기지가 접속되지 않았습니다</value>
+  </data>
+  <data name="strCommLargePacketWriteFailed" xml:space="preserve">
+    <value>대용량파케트쓰기실패</value>
+  </data>
+  <data name="strInterLink" xml:space="preserve">
+    <value>문열기련동</value>
+  </data>
+  <data name="strInterLock" xml:space="preserve">
+    <value>여러문호상닫기</value>
+  </data>
+  <data name="strOne4Enable" xml:space="preserve">
+    <value>1=적용</value>
+  </data>
+  <data name="strMeetingNameIsEmpty" xml:space="preserve">
+    <value>회의이름을 입력하십시오...</value>
+  </data>
+  <data name="strRecordPushButtonInvalid_NotOnLine" xml:space="preserve">
+    <value>문열기단추 문열리지 않음: 문이 조종상태에 있지 않음</value>
+  </data>
+  <data name="strImportInformation" xml:space="preserve">
+    <value>주의: 이 기능은 유효한 사용자ID, 이름, 카드ID, 암호, 부문 총 5개항목의 정보를 불러들입니다.
+파일에 있는 기타 사용자정보는 무시됩니다.</value>
+  </data>
+  <data name="strRecordDeniedAccessINVALIDTIMEZONE" xml:space="preserve">
+    <value>인증통과금지: 유효기간이 지났거나 유효시간단이 아니거나 휴가기간</value>
+  </data>
+  <data name="strWEBDisabled" xml:space="preserve">
+    <value>WEB미사용</value>
+  </data>
+  <data name="strWarnInvalidCardSwiping" xml:space="preserve">
+    <value>무효인증</value>
+  </data>
+  <data name="strPersonnel" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="strRegisterSuccessfully" xml:space="preserve">
+    <value>등록에 성공하였습니다.</value>
+  </data>
+  <data name="strFloor2" xml:space="preserve">
+    <value>층</value>
+  </data>
+  <data name="strFloor3" xml:space="preserve">
+    <value>문</value>
+  </data>
+  <data name="strFloorConfigure" xml:space="preserve">
+    <value>문관리</value>
+  </data>
+  <data name="strFailed" xml:space="preserve">
+    <value>실행이 실패하였습니다!</value>
+  </data>
+  <data name="strRecordDeniedAccess" xml:space="preserve">
+    <value>인증통과금지: 원인불명</value>
+  </data>
+  <data name="strMapNameDuplicated4Edit" xml:space="preserve">
+    <value>입력한 지도이름이 존재합니다. 지도변경조작이 실패하였습니다</value>
+  </data>
+  <data name="strNeedUpload" xml:space="preserve">
+    <value>다시 업로드하여주십시오!</value>
+  </data>
+  <data name="strNeedToWork" xml:space="preserve">
+    <value>출근일이 필요합니다</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuInterLock" xml:space="preserve">
+    <value>여러문호상닫기</value>
+  </data>
+  <data name="strWorkHour" xml:space="preserve">
+    <value>출근시간</value>
+  </data>
+  <data name="strCardAlreadyUsed" xml:space="preserve">
+    <value>카드ID를 이미 사용중입니다. 새로운 카드ID를 다시 입력해주십시오.</value>
+  </data>
+  <data name="strMealPremote" xml:space="preserve">
+    <value>식사점을 설정한후 다시 조작하십시오.</value>
+  </data>
+  <data name="strPwdNoPassword" xml:space="preserve">
+    <value>암호없음</value>
+  </data>
+  <data name="strUpdateController" xml:space="preserve">
+    <value>기대변경</value>
+  </data>
+  <data name="strDelete" xml:space="preserve">
+    <value>삭제하시겠습니까--</value>
+  </data>
+  <data name="strDoorNO" xml:space="preserve">
+    <value>호</value>
+  </data>
+  <data name="strAllZones" xml:space="preserve">
+    <value>(모든구역)</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPeripheral" xml:space="preserve">
+    <value>경보</value>
+  </data>
+  <data name="strWritingRecordsToDB" xml:space="preserve">
+    <value>기록얻기가 완성되였습니다. 자료기지에 입력하고 있습니다</value>
+  </data>
+  <data name="strLicenseExpired" xml:space="preserve">
+    <value>프로그람유효기간이 지났습니다. 등록번호를 다시 입력해주십시오:</value>
+  </data>
+  <data name="strRecordWarnEmergencyCall" xml:space="preserve">
+    <value>긴급구재경보</value>
+  </data>
+  <data name="strRecordWarnTamper" xml:space="preserve">
+    <value>탬퍼경보</value>
+  </data>
+  <data name="strRemoteOpenDoorOK" xml:space="preserve">
+    <value>원격문열기성공</value>
+  </data>
+  <data name="strRecordWarnFire" xml:space="preserve">
+    <value>화재경보</value>
+  </data>
+  <data name="strRecordPushButton" xml:space="preserve">
+    <value>문열기단추</value>
+  </data>
+  <data name="strAutoAddCardErrConsumerNO" xml:space="preserve">
+    <value>사용자ID가 유효하지 않으므로 자동추가를 진행할수 없습니다.</value>
+  </data>
+  <data name="strRecordWarnCloseByForce" xml:space="preserve">
+    <value>강제문닫기</value>
+  </data>
+  <data name="strDateTimeFormatErr" xml:space="preserve">
+    <value>입력한 형식이 정확히 않습니다...</value>
+  </data>
+  <data name="strAreYouSureUpdate" xml:space="preserve">
+    <value>업로드갱신을 진행하시겠습니까</value>
+  </data>
+  <data name="strInfact" xml:space="preserve">
+    <value>,실제로</value>
+  </data>
+  <data name="strInDoor" xml:space="preserve">
+    <value>들어가는 문</value>
+  </data>
+  <data name="strAutoAddCard" xml:space="preserve">
+    <value>자동추가하는 사용자수:</value>
+  </data>
+  <data name="strNotArrange" xml:space="preserve">
+    <value>설정된 교대가 없거나 부분교대만 설정되여 있고 지정된 시간범위내의 교대가 없습니다.</value>
+  </data>
+  <data name="strSwipeGap" xml:space="preserve">
+    <value>인증간격제한</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuManualCardRecord" xml:space="preserve">
+    <value>출석</value>
+  </data>
+  <data name="strGotRecords" xml:space="preserve">
+    <value>기록 불러오기 완료</value>
+  </data>
+  <data name="strMsgYes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuSystemCharacteristic" xml:space="preserve">
+    <value>체계특성</value>
+  </data>
+  <data name="strNameDuplicated" xml:space="preserve">
+    <value>이름이 중복되였습니다. 다시 입력하여주십시오!</value>
+  </data>
+  <data name="strDepartNameTooLong" xml:space="preserve">
+    <value>부문이름길이가 초과되였습니다!</value>
+  </data>
+  <data name="strCardNotExisted" xml:space="preserve">
+    <value>카드ID가 존재하지 않습니다.</value>
+  </data>
+  <data name="strRecordWarnGuardAgainstTheft" xml:space="preserve">
+    <value>방도경보</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuLogQuery" xml:space="preserve">
+    <value>조작일지</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_FIRSTCARD" xml:space="preserve">
+    <value>인증통과금지: Super카드</value>
+  </data>
+  <data name="strWarnThreateCode" xml:space="preserve">
+    <value>협박경보</value>
+  </data>
+  <data name="strFunctionDisplayName_btnZoneManage" xml:space="preserve">
+    <value>구역관리</value>
+  </data>
+  <data name="strDoorOpenTooLong" xml:space="preserve">
+    <value>문열기시간초과경보</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuCardLost" xml:space="preserve">
+    <value>분실</value>
+  </data>
+  <data name="strRestorAllSwipeRecords" xml:space="preserve">
+    <value>기대의 모든 인증기록 초기화</value>
+  </data>
+  <data name="strPrivateLeave" xml:space="preserve">
+    <value>사결</value>
+  </data>
+  <data name="strNumericWrong" xml:space="preserve">
+    <value>유효한 수자를 입력하여주십시오</value>
+  </data>
+  <data name="strFriday_Short" xml:space="preserve">
+    <value>금</value>
+  </data>
+  <data name="strReplaceDepartment" xml:space="preserve">
+    <value>부문</value>
+  </data>
+  <data name="strRegisterAgain" xml:space="preserve">
+    <value>다시 등로갛여주십시오</value>
+  </data>
+  <data name="strAdjustTime" xml:space="preserve">
+    <value>시간교정</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_LIMITEDPERSONSINDOOR" xml:space="preserve">
+    <value>인증통과금지: 문내부인원수제한</value>
+  </data>
+  <data name="strCheckCard" xml:space="preserve">
+    <value>카드ID를 체크해주십시오.</value>
+  </data>
+  <data name="strFloorPrivilege3" xml:space="preserve">
+    <value>사용자사물함권한설정</value>
+  </data>
+  <data name="strFloorPrivilege2" xml:space="preserve">
+    <value>사용자층권한설정</value>
+  </data>
+  <data name="strFileDirectoryNotVisited" xml:space="preserve">
+    <value>파일 혹은 목록이 존재하지 않거나 접근이 허가되지 않았습니다.</value>
+  </data>
+  <data name="strConsumerNameWrong" xml:space="preserve">
+    <value>이름을 입력하여주십시오.</value>
+  </data>
+  <data name="strSunday_Short" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="strSpecialCardSuper" xml:space="preserve">
+    <value>Super카드</value>
+  </data>
+  <data name="strBasicOperate" xml:space="preserve">
+    <value>기본조작</value>
+  </data>
+  <data name="strHoliday_Sunday" xml:space="preserve">
+    <value>일요일</value>
+  </data>
+  <data name="strMonitoring" xml:space="preserve">
+    <value>감시중...</value>
+  </data>
+  <data name="strWarnForcedOpen" xml:space="preserve">
+    <value>강제침입경보</value>
+  </data>
+  <data name="strWarnForcedLock" xml:space="preserve">
+    <value>강제문닫기</value>
+  </data>
+  <data name="strRecordThreatClose" xml:space="preserve">
+    <value>협박경보닫기</value>
+  </data>
+  <data name="strDoorControl_NC" xml:space="preserve">
+    <value>항상닫기</value>
+  </data>
+  <data name="strDoorControl_NO" xml:space="preserve">
+    <value>항상열기</value>
+  </data>
+  <data name="strReplaceDepartment2" xml:space="preserve">
+    <value>부문</value>
+  </data>
+  <data name="strRecordThreatOpen" xml:space="preserve">
+    <value>협박경보열기</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_INTERLOCK" xml:space="preserve">
+    <value>인증통과금지: 문호상닫기</value>
+  </data>
+  <data name="strUnknown" xml:space="preserve">
+    <value>意外的故障错误. 请与管理员或供应商联系. </value>
+  </data>
+  <data name="strCardNOIsAdded" xml:space="preserve">
+    <value>카드ID가 이미 존재합니다.</value>
+  </data>
+  <data name="strStopComm" xml:space="preserve">
+    <value>정지신호</value>
+  </data>
+  <data name="strInputCompanyName" xml:space="preserve">
+    <value>본회사의 명칭을 입력하여주십시오</value>
+  </data>
+  <data name="strRegisterSNWrong" xml:space="preserve">
+    <value>입력한 등록번호가 정확하지 않습니다.</value>
+  </data>
+  <data name="strPatrolErrPatrolTime" xml:space="preserve">
+    <value>야간이후시간무효</value>
+  </data>
+  <data name="strDoorsNum" xml:space="preserve">
+    <value>문수</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuAbout" xml:space="preserve">
+    <value>제품정보</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuLeave" xml:space="preserve">
+    <value>휴가출장</value>
+  </data>
+  <data name="strTimeInvalidParm" xml:space="preserve">
+    <value>유효한 날자, 시간, 요일을 선택하여주십시오.</value>
+  </data>
+  <data name="strTaskListOver" xml:space="preserve">
+    <value>임무개수는 400을 초과할수 없습니다.</value>
+  </data>
+  <data name="strOperateDate" xml:space="preserve">
+    <value>조작시간:</value>
+  </data>
+  <data name="strMapNameDuplicated" xml:space="preserve">
+    <value>입력한 지도이름이 존재합니다. 지도추가조작이 실패하였습니다</value>
+  </data>
+  <data name="strTitleHouse" xml:space="preserve">
+    <value>소구역출입관리체계</value>
+  </data>
+  <data name="strErrDataFlash" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="strShiftNormalConfigure" xml:space="preserve">
+    <value>단교대설정</value>
+  </data>
+  <data name="strGuardAgainstTheft" xml:space="preserve">
+    <value>방도경보</value>
+  </data>
+  <data name="strDelAddAndUploadFail" xml:space="preserve">
+    <value>권한이 이미 변경되였습니다.
+
+이번 업로드갱신이 실패하였습니다[어떤 기대들과 통신할수 없음]. 
+잠시후 써버에 다시 업로드하여주십시오.</value>
+  </data>
+  <data name="strMoreCards" xml:space="preserve">
+    <value>조합문열기</value>
+  </data>
+  <data name="strUploadFail_200K" xml:space="preserve">
+    <value>권한업로드에 실패하였습니다. 업로드하는 권한의 수가 20만개를 초과할수 없습니다</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1Tool" xml:space="preserve">
+    <value>도구</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1Help" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="strMeetingNameIsDupliated" xml:space="preserve">
+    <value>회의명칭은 중복될수 없습니다..</value>
+  </data>
+  <data name="strRecordRemoteOpenDoor" xml:space="preserve">
+    <value>관리자원격문열기</value>
+  </data>
+  <data name="strValWrong" xml:space="preserve">
+    <value>기대번호, 문이름, 리더기특성은 빌수 없으며 중복될수 없습니다.</value>
+  </data>
+  <data name="strFirmware" xml:space="preserve">
+    <value>펌웨어버젼</value>
+  </data>
+  <data name="strCommPacketSent" xml:space="preserve">
+    <value>발송함</value>
+  </data>
+  <data name="strCommPacketLost" xml:space="preserve">
+    <value>파케트류실</value>
+  </data>
+  <data name="strElevatorMoreFloors" xml:space="preserve">
+    <value>&lt;기타...&gt;</value>
+  </data>
+  <data name="strForceWarn" xml:space="preserve">
+    <value>협박경보</value>
+  </data>
+  <data name="strLeaveBusinessTrip" xml:space="preserve">
+    <value>휴가출장</value>
+  </data>
+  <data name="strDisplaySize" xml:space="preserve">
+    <value>분해능</value>
+  </data>
+  <data name="strFunctionDisplayName_cmdOperatorManage" xml:space="preserve">
+    <value>관리자관리</value>
+  </data>
+  <data name="strDontGoOff" xml:space="preserve">
+    <value>리탈하지 않음</value>
+  </data>
+  <data name="strNoSwiping" xml:space="preserve">
+    <value>기록이 없습니다</value>
+  </data>
+  <data name="strPasswordNotSame" xml:space="preserve">
+    <value>암호가 일치하지 않습니다. 다시 입력하여주십시오!</value>
+  </data>
+  <data name="strInputBuildingCompanyName" xml:space="preserve">
+    <value>시공회사명칭을 입력하여주십시오</value>
+  </data>
+  <data name="strRecordSuperPasswordClose" xml:space="preserve">
+    <value>초급암호닫기</value>
+  </data>
+  <data name="strMinutes" xml:space="preserve">
+    <value>분</value>
+  </data>
+  <data name="strAlreadyRegistered" xml:space="preserve">
+    <value>쏘프트웨어가 이미 등록되였습니다.</value>
+  </data>
+  <data name="strPatrolPointFirstTimeNextDay" xml:space="preserve">
+    <value>처음 순찰시간은 일을 넘길수 없습니다!</value>
+  </data>
+  <data name="strWarnDesc" xml:space="preserve">
+    <value>경보</value>
+  </data>
+  <data name="strRecordDeniedAccessERRPASSWORD" xml:space="preserve">
+    <value>인증통과금지: 암호틀림</value>
+  </data>
+  <data name="strRegisterAlready" xml:space="preserve">
+    <value>[이미 등록됨]</value>
+  </data>
+  <data name="strDoorInformation" xml:space="preserve">
+    <value>기대검사</value>
+  </data>
+  <data name="strNotReadCard" xml:space="preserve">
+    <value>미인증</value>
+  </data>
+  <data name="strUnRegistered" xml:space="preserve">
+    <value>미등록</value>
+  </data>
+  <data name="strRegisterFailed" xml:space="preserve">
+    <value>등록실패!</value>
+  </data>
+  <data name="strLockSwitch" xml:space="preserve">
+    <value>문스위치설정</value>
+  </data>
+  <data name="strSNAlreadyUsed" xml:space="preserve">
+    <value>입력상품계렬번호가 이미 존재합니다. 새로운 상품계렬번호를 입력하여주십시오...</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_LIMITEDTIMES" xml:space="preserve">
+    <value>인증통과금지: 인증회수제한</value>
+  </data>
+  <data name="strMeetingSubTotal" xml:space="preserve">
+    <value>소계</value>
+  </data>
+  <data name="strQueryCardRecords" xml:space="preserve">
+    <value>원시기록검색</value>
+  </data>
+  <data name="strGetCardRecords" xml:space="preserve">
+    <value>기록얻기</value>
+  </data>
+  <data name="strFirstCard" xml:space="preserve">
+    <value>Super카드문열기</value>
+  </data>
+  <data name="strDeleteSelected" xml:space="preserve">
+    <value>선택된 항목을 삭제하시겠습니까? 개수=</value>
+  </data>
+  <data name="strLaterThanNow" xml:space="preserve">
+    <value>들어가는 시간이 콤퓨터시간보다 늦습니다.</value>
+  </data>
+  <data name="strCountry" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="strSaveAsConfigureFile" xml:space="preserve">
+    <value>설정파일생성</value>
+  </data>
+  <data name="strConsole" xml:space="preserve">
+    <value>써버</value>
+  </data>
+  <data name="strPwdChanged" xml:space="preserve">
+    <value>변경됨</value>
+  </data>
+  <data name="strAttendanceSetup" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="strDirectSetDoorControl" xml:space="preserve">
+    <value>문조종방식직접설정:</value>
+  </data>
+  <data name="strComputer" xml:space="preserve">
+    <value>콤퓨터</value>
+  </data>
+  <data name="strRecordRemoteOpenDoor_ByUSBReader" xml:space="preserve">
+    <value>원격문열기가 확정되였습니다. 카드ID=</value>
+  </data>
+  <data name="strNeedSuperPrivilege" xml:space="preserve">
+    <value>고급관리자가 있어야 합니다.</value>
+  </data>
+  <data name="strController" xml:space="preserve">
+    <value>기대</value>
+  </data>
+  <data name="strCommLose" xml:space="preserve">
+    <value>통신파케트류실</value>
+  </data>
+  <data name="strCommFail" xml:space="preserve">
+    <value>통신할수 없습니다.</value>
+  </data>
+  <data name="strDoorStatus_Closed" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="strMeetingSystemDate" xml:space="preserve">
+    <value>체계날자</value>
+  </data>
+  <data name="strRecordPushButtonInvalid_Disable" xml:space="preserve">
+    <value>문열기단추 문열리지 않음: 문열기단추금지</value>
+  </data>
+  <data name="strOnDutyDesc" xml:space="preserve">
+    <value>출근서술</value>
+  </data>
+  <data name="strUsersNum" xml:space="preserve">
+    <value>사용자수</value>
+  </data>
+  <data name="strPwdUnChanged" xml:space="preserve">
+    <value>미변경</value>
+  </data>
+  <data name="strInvalidReadTimes" xml:space="preserve">
+    <value>인증회수무효[정확히는 2,4,6,8].</value>
+  </data>
+  <data name="strErrParam" xml:space="preserve">
+    <value>파라메터표</value>
+  </data>
+  <data name="strArrangeShiftIDNotExisted" xml:space="preserve">
+    <value>설정한 교대가 존재하지 않습니다.</value>
+  </data>
+  <data name="strRecordPushButtonInvalid_ForcedLock" xml:space="preserve">
+    <value>문열기단추 문열리지 않음: 강제문닫기</value>
+  </data>
+  <data name="strShiftRule" xml:space="preserve">
+    <value>다교대설정</value>
+  </data>
+  <data name="strRecordSuperPasswordDoorOpen" xml:space="preserve">
+    <value>초급암호문열기</value>
+  </data>
+  <data name="strShiftData" xml:space="preserve">
+    <value>다교대 자료</value>
+  </data>
+  <data name="strPersonNameNotEmpty" xml:space="preserve">
+    <value>이름은 빌수 없습니다.</value>
+  </data>
+  <data name="strIPAddrWrong" xml:space="preserve">
+    <value>정확한 IP를 입력하여주십시오.</value>
+  </data>
+  <data name="strWiFiSsidWrong" xml:space="preserve">
+    <value>정확한 망이름을 입력하여주십시오.</value>
+  </data>
+  <data name="strShift" xml:space="preserve">
+    <value>교대</value>
+  </data>
+  <data name="strSuper" xml:space="preserve">
+    <value>초급관리자</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuTaskList" xml:space="preserve">
+    <value>정시임무</value>
+  </data>
+  <data name="strRecordSwipeWithCount4Floor" xml:space="preserve">
+    <value>인증문열기, 직행= </value>
+  </data>
+  <data name="strGoOff" xml:space="preserve">
+    <value>외출</value>
+  </data>
+  <data name="strFloor" xml:space="preserve">
+    <value>문</value>
+  </data>
+  <data name="strMsgNo" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="strMsgOK" xml:space="preserve">
+    <value>확정</value>
+  </data>
+  <data name="strOffDutyDesc" xml:space="preserve">
+    <value>퇴근서술</value>
+  </data>
+  <data name="strOperationCanceled" xml:space="preserve">
+    <value>현재조작중단!</value>
+  </data>
+  <data name="strSwipeStatus" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="strMapFileNull" xml:space="preserve">
+    <value>지도이름을 입력하십시오.</value>
+  </data>
+  <data name="strRecordDeniedAccessDOORNC" xml:space="preserve">
+    <value>인증통과금지: 문항상닫기</value>
+  </data>
+  <data name="strCommLargePacketReadFailed" xml:space="preserve">
+    <value>대용량파케트읽기실패</value>
+  </data>
+  <data name="strFindComplete" xml:space="preserve">
+    <value>검색이 완료되였습니다</value>
+  </data>
+  <data name="strInputRegisterSN" xml:space="preserve">
+    <value>등록번호를 입력하여주십시오:</value>
+  </data>
+  <data name="strFunctionDisplayName_cmdChangePasswor" xml:space="preserve">
+    <value>암호변경</value>
+  </data>
+  <data name="strControllerSN" xml:space="preserve">
+    <value>기대계렬번호</value>
+  </data>
+  <data name="strNewPwdNotAsSameInSystem" xml:space="preserve">
+    <value>새암호와 체계에서 사용하는 암호가 일치하지 않습니다. 다시 입력하여주십시오.</value>
+  </data>
+  <data name="strReplaceFloorRoom" xml:space="preserve">
+    <value>방번호</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuMonitor" xml:space="preserve">
+    <value>실시간감시</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_SWIPEGAPLIMIT" xml:space="preserve">
+    <value>인증통과금지: 인증시간간격제한</value>
+  </data>
+  <data name="strMapNameNull" xml:space="preserve">
+    <value>지도이름을 입력하십시오.</value>
+  </data>
+  <data name="strNoControllerInfo2Base" xml:space="preserve">
+    <value>검색된 기대가 없습니다. 기대망통신련결상태를 확인하십시오.</value>
+  </data>
+  <data name="strAccessDatabaseNotConnected" xml:space="preserve">
+    <value>Access자료기지가 존재하지 않거나 파괴되였습니다. 검사해주십시오.</value>
+  </data>
+  <data name="strAddController" xml:space="preserve">
+    <value>기대추가</value>
+  </data>
+  <data name="strSetCommPassword" xml:space="preserve">
+    <value>선정기대통신암호설정</value>
+  </data>
+  <data name="strControllerNOAlreadyUsed" xml:space="preserve">
+    <value>입력된 기대번호가 이미 존재합니다. 변경 혹은 새로운 기대번호를 입력하여주십시오...	</value>
+  </data>
+  <data name="strWrongTimeSegment" xml:space="preserve">
+    <value>식사시간단설정에 오유가 있습니다:</value>
+  </data>
+  <data name="strtotalPerson4AntibackShare" xml:space="preserve">
+    <value>문내부인원수</value>
+  </data>
+  <data name="strNeedShift" xml:space="preserve">
+    <value>교대를 설정하여주십시오</value>
+  </data>
+  <data name="strControlTaskList" xml:space="preserve">
+    <value>정시임무 혹은 Super카드</value>
+  </data>
+  <data name="strUploadPreparing" xml:space="preserve">
+    <value>현재 자료를 준비중입니다...</value>
+  </data>
+  <data name="strDoorControl_OnLine" xml:space="preserve">
+    <value>조종상태</value>
+  </data>
+  <data name="strFloorPrivilege" xml:space="preserve">
+    <value>사용자문열기권한설정</value>
+  </data>
+  <data name="strFunctionDisplayName_btnMaps" xml:space="preserve">
+    <value>전자지도</value>
+  </data>
+  <data name="strHoliday" xml:space="preserve">
+    <value>휴식일</value>
+  </data>
+  <data name="strPwdNotSame" xml:space="preserve">
+    <value>입력한 암호가 맞지 않습니다. 다시 입력하여주십시오!</value>
+  </data>
+  <data name="strAllowableAccess" xml:space="preserve">
+    <value>통과허용</value>
+  </data>
+  <data name="strRegistered" xml:space="preserve">
+    <value>등록됨</value>
+  </data>
+  <data name="strPrivileges" xml:space="preserve">
+    <value>권한</value>
+  </data>
+  <data name="strPM" xml:space="preserve">
+    <value>오후</value>
+  </data>
+  <data name="strTo" xml:space="preserve">
+    <value>까지</value>
+  </data>
+  <data name="strAM" xml:space="preserve">
+    <value>오전</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_ANTIBACK" xml:space="preserve">
+    <value>인증통과금지: Antipass</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPrivilege" xml:space="preserve">
+    <value>권한</value>
+  </data>
+  <data name="strEvaluation" xml:space="preserve">
+    <value>시험기간</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuMeeting" xml:space="preserve">
+    <value>회의출석</value>
+  </data>
+  <data name="strAntibackShare" xml:space="preserve">
+    <value>Antipass신호공유</value>
+  </data>
+  <data name="strReplaceWorkNO" xml:space="preserve">
+    <value>사용자ID</value>
+  </data>
+  <data name="strRecordDeniedAccessPCControl" xml:space="preserve">
+    <value>인증통과금지: 콤퓨터조종</value>
+  </data>
+  <data name="strRecordThreat" xml:space="preserve">
+    <value>협박경보</value>
+  </data>
+  <data name="strFirstOnDuty" xml:space="preserve">
+    <value>제일이른 출근시간</value>
+  </data>
+  <data name="strFloorShort" xml:space="preserve">
+    <value>문</value>
+  </data>
+  <data name="strMealTotal" xml:space="preserve">
+    <value>총계</value>
+  </data>
+  <data name="strReplaceNO" xml:space="preserve">
+    <value>번호</value>
+  </data>
+  <data name="strCommLargePacketTryTimes" xml:space="preserve">
+    <value>검사중재시도회수</value>
+  </data>
+  <data name="strMealName2" xml:space="preserve">
+    <value>저녁</value>
+  </data>
+  <data name="strMealName3" xml:space="preserve">
+    <value>야간</value>
+  </data>
+  <data name="strMealName0" xml:space="preserve">
+    <value>아침</value>
+  </data>
+  <data name="strMealName1" xml:space="preserve">
+    <value>점심</value>
+  </data>
+  <data name="strInvalidCardWarn" xml:space="preserve">
+    <value>무효인증경보</value>
+  </data>
+  <data name="strTaskNum" xml:space="preserve">
+    <value>임무개수</value>
+  </data>
+  <data name="strOperatorHaveNoPrivilege" xml:space="preserve">
+    <value>관리자는 프로그람을 실행시킬 권한이 없습니다．　관리자의 권한을 확인하십시오．</value>
+  </data>
+  <data name="strRecordSuperPasswordOpen" xml:space="preserve">
+    <value>초급암호열기</value>
+  </data>
+  <data name="strDoorControl" xml:space="preserve">
+    <value>조종방식</value>
+  </data>
+  <data name="strShiftSet" xml:space="preserve">
+    <value>다교대설정</value>
+  </data>
+  <data name="strRecordDeniedAccessNOPRIVILEGE" xml:space="preserve">
+    <value>인증통과금지: 권한없음</value>
+  </data>
+  <data name="strElevatorController" xml:space="preserve">
+    <value>1대다기대</value>
+  </data>
+  <data name="strPasswordKeypad" xml:space="preserve">
+    <value>암호건반</value>
+  </data>
+  <data name="strLeaveEarly" xml:space="preserve">
+    <value>조퇴</value>
+  </data>
+  <data name="strDeniedAccess" xml:space="preserve">
+    <value>통과금지</value>
+  </data>
+  <data name="strIDWrong" xml:space="preserve">
+    <value>유효수자로 번호를 입력해주십시오.</value>
+  </data>
+  <data name="strAreYouSureAutoAddCard" xml:space="preserve">
+    <value>자동카드ID추가를 진행하시겠습니까</value>
+  </data>
+  <data name="strRecordButtonEvent" xml:space="preserve">
+    <value>문열기건사건기록</value>
+  </data>
+  <data name="strUsersFileInvalid" xml:space="preserve">
+    <value>무효한 사용자파일입니다!</value>
+  </data>
+  <data name="strElevator" xml:space="preserve">
+    <value>1대다</value>
+  </data>
+  <data name="strSelectDoor4Query" xml:space="preserve">
+    <value>문을 선정하여주십시오</value>
+  </data>
+  <data name="strHoliday_PM" xml:space="preserve">
+    <value>오후</value>
+  </data>
+  <data name="strHoliday_AM" xml:space="preserve">
+    <value>오전</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuAttendenceData" xml:space="preserve">
+    <value>출퇴근통계표</value>
+  </data>
+  <data name="strPatrolPointAddFailed" xml:space="preserve">
+    <value>순찰시간자동증가, 처음 순찰시간이 일을 초과하였습니다!
+
+순찰시간자동증가후 추가가 실패하였습니다!</value>
+  </data>
+  <data name="strGetSwipeRecordOK" xml:space="preserve">
+    <value>기록 불러오기 성공</value>
+  </data>
+  <data name="strShiftNormalParamSet2" xml:space="preserve">
+    <value>출근시간이 퇴근시간보다 늦을수 없습니다</value>
+  </data>
+  <data name="strShiftNormalParamSet1" xml:space="preserve">
+    <value>지각허용시간이 지각무단결근허용시간을 초과할수 없습니다</value>
+  </data>
+  <data name="strWeekday" xml:space="preserve">
+    <value>요일</value>
+  </data>
+  <data name="strDoorStatus" xml:space="preserve">
+    <value>문상태</value>
+  </data>
+  <data name="strNameNotEmpty" xml:space="preserve">
+    <value>이름을 입력하여주십시오.</value>
+  </data>
+  <data name="strElevatorController2" xml:space="preserve">
+    <value>승강기기대</value>
+  </data>
+  <data name="strElevatorController3" xml:space="preserve">
+    <value>사물함기대</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuMoreCards" xml:space="preserve">
+    <value>조합문열기</value>
+  </data>
+  <data name="strShouldBe" xml:space="preserve">
+    <value>프로그람설치요구는</value>
+  </data>
+  <data name="strBasicConfigure" xml:space="preserve">
+    <value>기본설정</value>
+  </data>
+  <data name="strSelectMaxRecID" xml:space="preserve">
+    <value>기록번호지정</value>
+  </data>
+  <data name="strRecordSwipeWithCount4MultiFloor1" xml:space="preserve">
+    <value>인증문열기, &lt;기타...&gt;</value>
+  </data>
+  <data name="strDepartment" xml:space="preserve">
+    <value>부문</value>
+  </data>
+  <data name="strAutoAddController" xml:space="preserve">
+    <value>자동추가하는 기대수</value>
+  </data>
+  <data name="strRecordSwipeWithCount" xml:space="preserve">
+    <value>인증문열기, 인증회수=</value>
+  </data>
+  <data name="strRecordPushButtonOpen" xml:space="preserve">
+    <value>문열기단추열기</value>
+  </data>
+  <data name="strBusinessTrip" xml:space="preserve">
+    <value>출장</value>
+  </data>
+  <data name="strElevator2" xml:space="preserve">
+    <value>승강기</value>
+  </data>
+  <data name="strElevator3" xml:space="preserve">
+    <value>사물함</value>
+  </data>
+  <data name="strAccessPrivilege" xml:space="preserve">
+    <value>권한</value>
+  </data>
+  <data name="strUploadBasicConfigureOK" xml:space="preserve">
+    <value>기본설정업로드성공</value>
+  </data>
+  <data name="strDoorStatus_Open" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="strWarnARM" xml:space="preserve">
+    <value>방도</value>
+  </data>
+  <data name="strRealtimeWatch" xml:space="preserve">
+    <value>실시간감시</value>
+  </data>
+  <data name="strCloseByForce" xml:space="preserve">
+    <value>강제문닫기</value>
+  </data>
+  <data name="strOvertime" xml:space="preserve">
+    <value>가외작업</value>
+  </data>
+  <data name="strUploadStart" xml:space="preserve">
+    <value>설정업로드시작......</value>
+  </data>
+  <data name="strPMOnDuty" xml:space="preserve">
+    <value>오후 출근</value>
+  </data>
+  <data name="strUploadAllOK" xml:space="preserve">
+    <value>기본설정과 권한업로드성공</value>
+  </data>
+  <data name="strArrangedInvalidShiftID" xml:space="preserve">
+    <value>교대설정중 무효한 교대번호가 존재합니다</value>
+  </data>
+  <data name="strNeedAdjustTime" xml:space="preserve">
+    <value>시간을 교정하여주십시오</value>
+  </data>
+  <data name="strEnterWithoutSwiping" xml:space="preserve">
+    <value>무인증진입</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_INORDER" xml:space="preserve">
+    <value>인증통과금지: 순서대로 출입제한</value>
+  </data>
+  <data name="strRealtimeGetSwipeRecordStart" xml:space="preserve">
+    <value>실시간기록얻기시작...</value>
+  </data>
+  <data name="strGetRecordsBeforeCreateReport" xml:space="preserve">
+    <value>인증기록을 얻은후 통계표를 다시 작성하십시오!</value>
+  </data>
+  <data name="strNoAccessPrivilege4SelectedDoors" xml:space="preserve">
+    <value>선정된 문이 사용자권한이 없습니다</value>
+  </data>
+  <data name="strRebootController" xml:space="preserve">
+    <value>기대를 재기동하여주십시오!</value>
+  </data>
+  <data name="strTranslateValueInvavid" xml:space="preserve">
+    <value>기타언어값을 입력하여주십시오!</value>
+  </data>
+  <data name="strPasswordWarn" xml:space="preserve">
+    <value>0보다 크고 6자리를 초과하지 않는 수자를 입력하여주십시오.</value>
+  </data>
+  <data name="strRecordWarnLeftOpen" xml:space="preserve">
+    <value>문열기시간초과경보[합법문열기후]</value>
+  </data>
+  <data name="strInterLockShare" xml:space="preserve">
+    <value>호상닫기신호공유</value>
+  </data>
+  <data name="strPatrolEventNormal" xml:space="preserve">
+    <value>정상</value>
+  </data>
+  <data name="strInvalidShiftID" xml:space="preserve">
+    <value>교대번호가 무효합니다.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuHolidaySet" xml:space="preserve">
+    <value>휴일설정</value>
+  </data>
+  <data name="strLongDateFormat" xml:space="preserve">
+    <value>긴날자형식</value>
+  </data>
+  <data name="strMeetingIdentity5" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="strMeetingIdentity4" xml:space="preserve">
+    <value>일군</value>
+  </data>
+  <data name="strMeetingIdentity3" xml:space="preserve">
+    <value>방청</value>
+  </data>
+  <data name="strMeetingIdentity2" xml:space="preserve">
+    <value>요청</value>
+  </data>
+  <data name="strMeetingIdentity1" xml:space="preserve">
+    <value>렬석</value>
+  </data>
+  <data name="strMeetingIdentity0" xml:space="preserve">
+    <value>대표</value>
+  </data>
+  <data name="strRecordPushButtonClose" xml:space="preserve">
+    <value>문열기단추닫기</value>
+  </data>
+  <data name="strCreateInAdvance" xml:space="preserve">
+    <value>통계표를 생성한후 다시 검색해주십시오...</value>
+  </data>
+  <data name="strDoorDelay" xml:space="preserve">
+    <value>문열기지연시간(초)</value>
+  </data>
+  <data name="strWarnReset" xml:space="preserve">
+    <value>경보재설정</value>
+  </data>
+  <data name="strIndexInFlash" xml:space="preserve">
+    <value>기록위치</value>
+  </data>
+  <data name="strSpecialCardMother" xml:space="preserve">
+    <value>모카드</value>
+  </data>
+  <data name="strTranslateFileSelect" xml:space="preserve">
+    <value>기타 언어를 선택할 때 대응한 번역파일을 선택하여주십시오!</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuExtendedFunction" xml:space="preserve">
+    <value>확장기능</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuGroups" xml:space="preserve">
+    <value>부문</value>
+  </data>
+  <data name="strFreeTime" xml:space="preserve">
+    <value>임의의 시간유효</value>
+  </data>
+  <data name="strMealNoRecords" xml:space="preserve">
+    <value>지정한 조건범위내에서  식사기록이 없습니다</value>
+  </data>
+  <data name="strDepartmentIsEmpty" xml:space="preserve">
+    <value>(부문이 빈것)</value>
+  </data>
+  <data name="strDisableControlSeg" xml:space="preserve">
+    <value>금지시간단</value>
+  </data>
+  <data name="strExportRecordsMax" xml:space="preserve">
+    <value>(Excel표로 출력 최대 65535개 기록)</value>
+  </data>
+  <data name="strControllerEndNo" xml:space="preserve">
+    <value>기대마감계렬번호</value>
+  </data>
+  <data name="strUserFileSelect" xml:space="preserve">
+    <value>사용자파일을 선택하여주십시오!</value>
+  </data>
+  <data name="strAccessControl" xml:space="preserve">
+    <value>출입관리설정</value>
+  </data>
+  <data name="strRebootController4Restore" xml:space="preserve">
+    <value>기대를 재기동한후 다시 확인하여주십시오!</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1DoorControl" xml:space="preserve">
+    <value>출입관리설정</value>
+  </data>
+  <data name="strRecordPushButtonInvalid_INTERLOCK" xml:space="preserve">
+    <value>문열기단추 문열리지 않음: 문호상닫기</value>
+  </data>
+  <data name="strMeetingSelectReaderAsSign" xml:space="preserve">
+    <value>출석리더기를 지정하여주십시오...</value>
+  </data>
+  <data name="strHttpWEBWrong" xml:space="preserve">
+    <value>60000과 같을수 없으며 통신 PORT와 같을수 없습니다!</value>
+  </data>
+  <data name="strFireSignalShare" xml:space="preserve">
+    <value>화재경보신호공유</value>
+  </data>
+  <data name="strMeetingMismatch" xml:space="preserve">
+    <value>량쪽이 같이 않습니다. 계속하시겠습니까</value>
+  </data>
+  <data name="strGetSwipeRecordStart" xml:space="preserve">
+    <value>기록 불러오기 시작......</value>
+  </data>
+  <data name="strDisplayHideLogin" xml:space="preserve">
+    <value>[도구] -&gt; [옵션]에서 [입문안내]를 다시 현시하도록 할수 있습니다</value>
+  </data>
+  <data name="strSelectController" xml:space="preserve">
+    <value>기대를 선택하여주십시오.</value>
+  </data>
+  <data name="strWarnFireAlarm" xml:space="preserve">
+    <value>화재경보</value>
+  </data>
+  <data name="strWednesday_Short" xml:space="preserve">
+    <value>수</value>
+  </data>
+  <data name="strRecordDoorClosed" xml:space="preserve">
+    <value>문닫기[문쎈서신호]</value>
+  </data>
+  <data name="strUpdateSuccessfully" xml:space="preserve">
+    <value>조작이 성공하였습니다. 프로그람을 탈퇴하고 다시 기동하여주십시오.
+		프로그람을 재기동하시겠습니까?</value>
+  </data>
+  <data name="strNeedUploadControlTimeSeg" xml:space="preserve">
+    <value>시간단 혹은 휴가기간을 추가, 변경, 삭제한 후 써버-&gt;설정업로드 [기대기본설정] 으로 설정을 업로드하여야 합니다.</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuManual" xml:space="preserve">
+    <value>사용설명서</value>
+  </data>
+  <data name="strEditOperatePrivilegeForbidden" xml:space="preserve">
+    <value>이관리자권한은 변경할수 없습니다!</value>
+  </data>
+  <data name="strCreateLog" xml:space="preserve">
+    <value>출퇴근통계생성일지: </value>
+  </data>
+  <data name="strFloorConfigure2" xml:space="preserve">
+    <value>층관리</value>
+  </data>
+  <data name="strFloorConfigure3" xml:space="preserve">
+    <value>함관리</value>
+  </data>
+  <data name="strSqlRunFail" xml:space="preserve">
+    <value>SQL지령실행실패.</value>
+  </data>
+  <data name="strPMOffDuty" xml:space="preserve">
+    <value>오후 퇴근</value>
+  </data>
+  <data name="strWEBEnabled" xml:space="preserve">
+    <value>WEB사용</value>
+  </data>
+  <data name="strInvalidPhotoDirectory" xml:space="preserve">
+    <value>사용자사진목록은 영문 혹은 수자이름이여야 합니다.  
+
+실례: \\pc1\photo 
+      \\192.168.168.168\photo </value>
+  </data>
+  <data name="strFunctionDisplayName_mnuOption" xml:space="preserve">
+    <value>옵션</value>
+  </data>
+  <data name="strAttDetailReport" xml:space="preserve">
+    <value>출퇴근통계표</value>
+  </data>
+  <data name="strIEVersion" xml:space="preserve">
+    <value>IE열람기버젼</value>
+  </data>
+  <data name="strSuccessfully" xml:space="preserve">
+    <value>성공</value>
+  </data>
+  <data name="strRecordPowerOn" xml:space="preserve">
+    <value>기대전원투입</value>
+  </data>
+  <data name="strShiftTimeOver24" xml:space="preserve">
+    <value>다교대시간이 24시간을 초과할수 없습니다.</value>
+  </data>
+  <data name="strUploadingPrivileges" xml:space="preserve">
+    <value>현재 설정과 권한을 업로드중입니다……</value>
+  </data>
+  <data name="strUploadedPrivileges" xml:space="preserve">
+    <value>권한업로드완성 --</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuTotalControl" xml:space="preserve">
+    <value>써버</value>
+  </data>
+  <data name="strReadDate" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="strFloorShort2" xml:space="preserve">
+    <value>층</value>
+  </data>
+  <data name="strFloorShort3" xml:space="preserve">
+    <value>문</value>
+  </data>
+  <data name="strAMOnDuty" xml:space="preserve">
+    <value>오전출근</value>
+  </data>
+  <data name="strErrRealClock" xml:space="preserve">
+    <value>시계</value>
+  </data>
+  <data name="strSNWrong" xml:space="preserve">
+    <value>9자리수의 유효한 상품계렬번호를 입력하여주십시오.</value>
+  </data>
+  <data name="strHoliday_Saturday" xml:space="preserve">
+    <value>토요일</value>
+  </data>
+  <data name="strAddUsers" xml:space="preserve">
+    <value>사용자추가</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuFirstCard" xml:space="preserve">
+    <value>Super카드문열기</value>
+  </data>
+  <data name="strPatrolEventEarly" xml:space="preserve">
+    <value>조근</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuUpload" xml:space="preserve">
+    <value>업로드</value>
+  </data>
+  <data name="strErrPwdOrName" xml:space="preserve">
+    <value>입력한 사용자이름 혹은 암호가 정확하지 않습니다. 다시 입력해주십시오.</value>
+  </data>
+  <data name="strRecordSwipeClose" xml:space="preserve">
+    <value>인증닫기</value>
+  </data>
+  <data name="strRecordWarnOpenByForce" xml:space="preserve">
+    <value>강제침입경보</value>
+  </data>
+  <data name="strMsgIgnore" xml:space="preserve">
+    <value>무시</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuRealtimeGetRecords" xml:space="preserve">
+    <value>실시간기록</value>
+  </data>
+  <data name="strRecordDeniedAccessSPECIAL_LIMITEDTIMES_WITHCOUNT" xml:space="preserve">
+    <value>인증통과금지: 인증회수제한, 인증회수=</value>
+  </data>
+  <data name="strExportRecords" xml:space="preserve">
+    <value>기록수를 출력</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuShiftArrange" xml:space="preserve">
+    <value>다교대조정</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPasswordManagement" xml:space="preserve">
+    <value>인증방식</value>
+  </data>
+  <data name="strControlTaskListText" xml:space="preserve">
+    <value>기대정시임무</value>
+  </data>
+  <data name="strAntiBack" xml:space="preserve">
+    <value>Antipass</value>
+  </data>
+  <data name="strAbsence" xml:space="preserve">
+    <value>무단결근</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuConstMeal" xml:space="preserve">
+    <value>정액식사</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuConsumers" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="strDoorInvalidOpen" xml:space="preserve">
+    <value>강제침입경보</value>
+  </data>
+  <data name="strTimeProfile" xml:space="preserve">
+    <value>시간단</value>
+  </data>
+  <data name="strShortDateFormat" xml:space="preserve">
+    <value>짧은 날자형식</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPatrolDetailData" xml:space="preserve">
+    <value>순찰</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuShiftRule" xml:space="preserve">
+    <value>다교대설정</value>
+  </data>
+  <data name="strMapFileNotExist" xml:space="preserve">
+    <value>지정한 지도파일이 존재하지 않습니다</value>
+  </data>
+  <data name="strSaturday_Short" xml:space="preserve">
+    <value>토</value>
+  </data>
+  <data name="strExitDoor" xml:space="preserve">
+    <value>외출</value>
+  </data>
+  <data name="strUserNonexisted" xml:space="preserve">
+    <value>입력한 사용자를 찾을수 없습니다</value>
+  </data>
+  <data name="strErrTimeDiff" xml:space="preserve">
+    <value>출퇴근시간간격이 너무 작습니다. 다교대설정의 설정값이 정확하지 않습니다.</value>
+  </data>
+  <data name="strAdjustTimeOK" xml:space="preserve">
+    <value>시간교정성공</value>
+  </data>
+  <data name="strNeedUploadFloor" xml:space="preserve">
+    <value>권한을 변경한후 써버-&gt;설정업로드 [기대기본설정] 으로 설정을 업로드하여야 합니다.</value>
+  </data>
+  <data name="strFailedNumeric999999" xml:space="preserve">
+    <value>999999보다 작고 0보다 커야 합니다.</value>
+  </data>
+  <data name="strZero4Disable" xml:space="preserve">
+    <value>0=미사용</value>
+  </data>
+  <data name="strElevatorName" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="strPatrolEventAbsence" xml:space="preserve">
+    <value>루락</value>
+  </data>
+  <data name="strMeetingDate" xml:space="preserve">
+    <value>개회날자</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuGetCardRecords" xml:space="preserve">
+    <value>기록얻기</value>
+  </data>
+  <data name="strDutyDesc4" xml:space="preserve">
+    <value>설명4</value>
+  </data>
+  <data name="strDutyDesc1" xml:space="preserve">
+    <value>설명1</value>
+  </data>
+  <data name="strDutyDesc3" xml:space="preserve">
+    <value>설명3</value>
+  </data>
+  <data name="strDutyDesc2" xml:space="preserve">
+    <value>설명2</value>
+  </data>
+  <data name="strUploadFail_40K" xml:space="preserve">
+    <value>권한업로드에 실패하였습니다. 업로드하는 권한수가 4만개를 초과할수 없습니다</value>
+  </data>
+  <data name="strStay" xml:space="preserve">
+    <value>체류시간</value>
+  </data>
+  <data name="strRest" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="strWarn" xml:space="preserve">
+    <value>경보.소방.방도.련동</value>
+  </data>
+  <data name="strUnit" xml:space="preserve">
+    <value>개</value>
+  </data>
+  <data name="strUser" xml:space="preserve">
+    <value>사용자:</value>
+  </data>
+  <data name="strZone" xml:space="preserve">
+    <value>구역</value>
+  </data>
+  <data name="strAddr" xml:space="preserve">
+    <value>지점</value>
+  </data>
+  <data name="strFrom" xml:space="preserve">
+    <value>부터</value>
+  </data>
+  <data name="strFire" xml:space="preserve">
+    <value>화재경보</value>
+  </data>
+  <data name="strExit" xml:space="preserve">
+    <value>탈퇴하시겠습니까</value>
+  </data>
+  <data name="strHour" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuShiftNormalConfigure" xml:space="preserve">
+    <value>단교대설정</value>
+  </data>
+  <data name="strCommPacket" xml:space="preserve">
+    <value>파케트</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuShiftSet" xml:space="preserve">
+    <value>다교대</value>
+  </data>
+  <data name="strMsgAbort" xml:space="preserve">
+    <value>포기</value>
+  </data>
+  <data name="strLateness" xml:space="preserve">
+    <value>지각</value>
+  </data>
+  <data name="strMsgRetry" xml:space="preserve">
+    <value>재시도</value>
+  </data>
+  <data name="strLastOffDuty" xml:space="preserve">
+    <value>제일 마지막 퇴근시간</value>
+  </data>
+  <data name="strSignWay0" xml:space="preserve">
+    <value>인증</value>
+  </data>
+  <data name="strSignWay1" xml:space="preserve">
+    <value>수동출석</value>
+  </data>
+  <data name="strSignWay2" xml:space="preserve">
+    <value>휴가</value>
+  </data>
+  <data name="strWelcomeToUse" xml:space="preserve">
+    <value>환영합니다</value>
+  </data>
+  <data name="strSqlServerNotConnected" xml:space="preserve">
+    <value>SQL Server 가 존재하지 않거나 접근실패입니다. 자료기지가 이미 만들어졌는지와 망렬결상태를 확인하여주십시오.
+    자료기지련결설정을 진행하시겠습니까?</value>
+  </data>
+  <data name="strFunctionDisplayName_mnu1Attendence" xml:space="preserve">
+    <value>출퇴근</value>
+  </data>
+  <data name="strPatrolCreateLog" xml:space="preserve">
+    <value>순찰통계표생성일지:</value>
+  </data>
+  <data name="strSignIn" xml:space="preserve">
+    <value>출석</value>
+  </data>
+  <data name="strTimeFormat" xml:space="preserve">
+    <value>시간형식</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuControllers" xml:space="preserve">
+    <value>기대</value>
+  </data>
+  <data name="strSwipes" xml:space="preserve">
+    <value>기록</value>
+  </data>
+  <data name="strSystem" xml:space="preserve">
+    <value>체계</value>
+  </data>
+  <data name="strPatrolEventLate" xml:space="preserve">
+    <value>지각</value>
+  </data>
+  <data name="strRecordDoorOpen" xml:space="preserve">
+    <value>문열기[문쎈서신호]</value>
+  </data>
+  <data name="strRecordSwipeOpen" xml:space="preserve">
+    <value>인증열기</value>
+  </data>
+  <data name="strPatrolEventRest" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="strMsgCancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="strAll" xml:space="preserve">
+    <value>(전부)</value>
+  </data>
+  <data name="strErr" xml:space="preserve">
+    <value>고장</value>
+  </data>
+  <data name="strDay" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuControlSeg" xml:space="preserve">
+    <value>시간단</value>
+  </data>
+  <data name="strCheckPixelFormat" xml:space="preserve">
+    <value>지원하지 않는 화상형식입니다!</value>
+  </data>
+  <data name="strFpEnrolledSuccessfully" xml:space="preserve">
+    <value>지문등록에 성공하였습니다.</value>
+  </data>
+  <data name="strFaceEnrolledSuccessfully" xml:space="preserve">
+    <value>얼굴등록에 성공하였습니다.</value>
+  </data>
+  <data name="strPlaceFinger" xml:space="preserve">
+    <value>지문을 입력하십시오 #</value>
+  </data>
+  <data name="strTakeoffFinger" xml:space="preserve">
+    <value>지문을 떼십시오.</value>
+  </data>
+  <data name="strCannotEnroll" xml:space="preserve">
+    <value>등록할수 없습니다!</value>
+  </data>
+  <data name="strCaptureTimeout" xml:space="preserve">
+    <value>캡쳐시간초과!</value>
+  </data>
+  <data name="strDeviceError" xml:space="preserve">
+    <value>기대에서 오유가 발생하였습니다!</value>
+  </data>
+  <data name="strFeatureExtError" xml:space="preserve">
+    <value>특징추출오유!</value>
+  </data>
+  <data name="strFingerNotFound" xml:space="preserve">
+    <value>지문을 입력하여주십시오!</value>
+  </data>
+  <data name="strInvalidID" xml:space="preserve">
+    <value>무효ID!</value>
+  </data>
+  <data name="strInvalidParam" xml:space="preserve">
+    <value>무효파라메터</value>
+  </data>
+  <data name="strNotEnrolledID" xml:space="preserve">
+    <value>등록되지 않은 ID입니다!</value>
+  </data>
+  <data name="strNotPressedFp" xml:space="preserve">
+    <value>지문을 입력하여주십시오!</value>
+  </data>
+  <data name="strTimeout" xml:space="preserve">
+    <value>시간초과</value>
+  </data>
+  <data name="strUnknownError" xml:space="preserve">
+    <value>미지오유!</value>
+  </data>
+  <data name="strFpRemovedSuccessfully" xml:space="preserve">
+    <value>지문삭제성공!</value>
+  </data>
+  <data name="strFaceRemovedSuccessfully" xml:space="preserve">
+    <value>얼굴삭제성공!</value>
+  </data>
+  <data name="strRecordDeniedAccessVM" xml:space="preserve">
+    <value>인증통과금지: 인증방식</value>
+  </data>
+  <data name="strHandleFailure" xml:space="preserve">
+    <value>조작실패!</value>
+  </data>
+  <data name="strHandleSuccess" xml:space="preserve">
+    <value>조작성공!</value>
+  </data>
+  <data name="strAuthDesc" xml:space="preserve">
+    <value>f_AuthDescCh</value>
+  </data>
+  <data name="strUserID" xml:space="preserve">
+    <value>사용자ID</value>
+  </data>
+  <data name="strFunctionDisplayName_btnAddController" xml:space="preserve">
+    <value>1. 기대추가</value>
+  </data>
+  <data name="strFunctionDisplayName_btnAddPrivilege" xml:space="preserve">
+    <value>3. 권한추가</value>
+  </data>
+  <data name="strFunctionDisplayName_btnAutoAddCardBySwiping" xml:space="preserve">
+    <value>2. 사용자추가</value>
+  </data>
+  <data name="strFunctionDisplayName_cmdEditOperator" xml:space="preserve">
+    <value>관리자변경</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuInterfaceLock" xml:space="preserve">
+    <value>화면잠금</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuUpgradeFirmware" xml:space="preserve">
+    <value>펌웨어갱신</value>
+  </data>
+  <data name="strFunctionDisplayName_mnuPCCheckAccessConfigure" xml:space="preserve">
+    <value>내외쌍인증</value>
+  </data>
+  <data name="strConnect" xml:space="preserve">
+    <value>접속</value>
+  </data>
+  <data name="strDisconnect" xml:space="preserve">
+    <value>접속끊기</value>
+  </data>
+  <data name="strCommError" xml:space="preserve">
+    <value>기대에서 처리중입니다! 잠시후 다시 펌웨어를 다시 업그레이드해주십시오.</value>
+  </data>
+  <data name="strDontPoweroff" xml:space="preserve">
+    <value>업그레이드중입니다...기대전원을 끄지 마십시오!</value>
+  </data>
+  <data name="strInvalidFirmware" xml:space="preserve">
+    <value>펌웨어파일이 정확하지 않습니다.</value>
+  </data>
+  <data name="strInvalidSize" xml:space="preserve">
+    <value>펌웨어크기가 정확하지 않습니다!</value>
+  </data>
+  <data name="strSelectFirmware" xml:space="preserve">
+    <value>펌웨어를 선정하여주십시오.</value>
+  </data>
+  <data name="strUpgradeFailed" xml:space="preserve">
+    <value>펌웨어갱신실패!</value>
+  </data>
+  <data name="strUpgradeSuccess" xml:space="preserve">
+    <value>펌웨어갱신성공!</value>
+  </data>
+  <data name="strFirmwareFilter" xml:space="preserve">
+    <value>펌웨어파일(*.bin)|*.bin</value>
+  </data>
+  <data name="strApplicationAlreadyRunning" xml:space="preserve">
+    <value>응용프로그람이 이미 실행되였습니다!</value>
+  </data>
+  <data name="strFpNone" xml:space="preserve">
+    <value>(미등록)</value>
+  </data>
+  <data name="strFpUnit" xml:space="preserve">
+    <value>매</value>
+  </data>
+  <data name="strPassAllowed" xml:space="preserve">
+    <value>허가</value>
+  </data>
+  <data name="strPassDisallowed" xml:space="preserve">
+    <value>불허</value>
+  </data>
+  <data name="strWrongPeriod" xml:space="preserve">
+    <value>통계표날자에 오유가 있습니다!</value>
+  </data>
+  <data name="strFpDuplicated" xml:space="preserve">
+    <value>지문중복!</value>
+  </data>
+  <data name="strDatabaseIsFull" xml:space="preserve">
+    <value>자료기지용량초과!</value>
+  </data>
+  <data name="strUpgradingFirmware" xml:space="preserve">
+    <value>펌웨어갱신중...</value>
+  </data>
+  <data name="strVerifNone" xml:space="preserve">
+    <value>(없음)</value>
+  </data>
+  <data name="strVerifFinger" xml:space="preserve">
+    <value>지문</value>
+  </data>
+  <data name="strVerifCard" xml:space="preserve">
+    <value>카드</value>
+  </data>
+  <data name="strVerifPassword" xml:space="preserve">
+    <value>암호</value>
+  </data>
+  <data name="strVerifFace" xml:space="preserve">
+    <value>얼굴</value>
+  </data>
+  <data name="strVerifMode" xml:space="preserve">
+    <value>방식</value>
+  </data>
+  <data name="strNeedToSelectDate" xml:space="preserve">
+    <value>날자를 선택하여주십시오</value>
+  </data>
+  <data name="strRegisterFace" xml:space="preserve">
+    <value>얼굴등록중： </value>
+  </data>
+  <data name="strFaceNone" xml:space="preserve">
+    <value>(미등록)</value>
+  </data>
+  <data name="strFaceRegistered" xml:space="preserve">
+    <value>(등록)</value>
+  </data>
+  <data name="strCapture" xml:space="preserve">
+    <value>캡쳐</value>
+  </data>
+  <data name="strPause" xml:space="preserve">
+    <value>정지</value>
+  </data>
+  <data name="strOutOfMemory"  xml:space="preserve">
+    <value>메모리오유가 발생하였습니다.</value>
+  </data>
+  <data name="strGrayNotCreated"  xml:space="preserve">
+    <value>그레이화상으로 변환할수 없습니다.</value>
+  </data>
+  <data name="strFaceNotDetected"  xml:space="preserve">
+    <value>얼굴을 정확히 추출할수 없습니다.</value>
+  </data>
+  <data name="strEyesNotDetected"  xml:space="preserve">
+    <value>눈을 정확히 추출할수 없습니다.</value>
+  </data>
+  <data name="strDetailsNotDetected"  xml:space="preserve">
+    <value>상세정보추출에서 오유가 발생하였습니다.</value>
+  </data>
+  <data name="strFeaturesNotExtracted"  xml:space="preserve">
+    <value>특징점추출에서 오유가 발생하였습니다.</value>
+  </data>
+  <data name="strTemplateNotExtracted"  xml:space="preserve">
+    <value>템플렛트추출에서 오유가 발생하였습니다.</value>
+  </data>
+  <data name="strDontMoveFace"  xml:space="preserve">
+    <value>얼굴을 정면으로 고정하십시오.</value>
+  </data>
+</root>

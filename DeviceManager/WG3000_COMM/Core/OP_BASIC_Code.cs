@@ -1,0 +1,40 @@
+﻿namespace WG3000_COMM.Core
+{
+    using System;
+
+    internal enum OP_BASIC_Code : byte
+    {
+        CODE_AUTO_IP_SET = 0xc0,
+        CODE_AUTO_IP_SET_FAIL = 0xc2,
+        CODE_AUTO_IP_SET_OK = 0xc1,
+        CODE_END = 0xff,
+        CODE_FRAM_SET = 0x80,
+        CODE_FRAM_SET_FAUK = 130,
+        CODE_FRAM_SET_OK = 0x81,
+        CODE_PARAM_SET = 0x60,
+        CODE_PARAM_SET_OK = 0x61,
+        CODE_PRODUCTINFO_GET = 80,
+        CODE_PRODUCTINFO_SET_OK = 0x51,
+        CODE_READRUNINFO = 0x10,
+        CODE_READRUNINFO_BYSERVER = 0x20,
+        CODE_READRUNINFO_BYSERVER_FAIL = 0x22,
+        CODE_READRUNINFO_BYSERVER_OK = 0x21,
+        CODE_READRUNINFO_OK = 0x11,
+        CODE_REBOOT = 0x90,
+        CODE_REBOOT_OK = 0x91,
+        CODE_REMOTE_OPEN = 0x40,
+        CODE_REMOTE_OPEN_OK = 0x41,
+        CODE_RENEW_CONTROLTASKLIST = 0x70,
+        CODE_RENEW_CONTROLTASKLIST_FAIL = 0x72,
+        CODE_RENEW_CONTROLTASKLIST_OK = 0x71,
+        CODE_RESET_WARNS = 160,
+        CODE_RESET_WARNS_OK = 0xa1,
+        CODE_SETDATE = 0x30,
+        CODE_SETDATE_FAIL = 50,
+        CODE_SETDATE_OK = 0x31,
+        CODE_SWIPE_GET = 0xb0,
+        CODE_SWIPE_GET_FAIL = 0xb2,
+        CODE_SWIPE_GET_OK = 0xb1
+    }
+}
+

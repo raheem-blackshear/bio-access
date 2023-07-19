@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strAccessHigh" xml:space="preserve">
+    <value>Access자료기지파일버젼이 프로그람이 지원하는 자료기지파일 버젼보다 높으므로 갱신할수 없습니다. 
+    
+관리자와 련계하여주십시오.</value>
+  </data>
+  <data name="strDBExist" xml:space="preserve">
+    <value>자료기지가 존재합니다.</value>
+  </data>
+  <data name="strCreateNewDatabaseCheck" xml:space="preserve">
+    <value>새 자료기지생성은 원래의 자료기지자료를 삭제할수 있습니다. 새 자료기지를 생성하시겠습니까?</value>
+  </data>
+  <data name="strFailed" xml:space="preserve">
+    <value>실패.</value>
+  </data>
+  <data name="strMsgYes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="strDBNotExist" xml:space="preserve">
+    <value>자료기지가 존재하지 않습니다.</value>
+  </data>
+  <data name="strSelectMsAccessDatabaseCheck" xml:space="preserve">
+    <value>MS Access자료기지를 리용하시겠습니까?</value>
+  </data>
+  <data name="strMsgNo" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="strMsgOK" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="strUpgradeDatabaseFromMsAccessCheck" xml:space="preserve">
+    <value>MS SQL자료기지에 Access자료기지의 내용이 완전복사됩니다. 
+    
+MsAccess자료기지로부터 MS SQLServer자료기지를 작성하시겠습니까?</value>
+  </data>
+  <data name="strFileNotExist" xml:space="preserve">
+    <value>파일이 존재하지 않습니다.</value>
+  </data>
+  <data name="strConnectSuccessfully" xml:space="preserve">
+    <value>접속이 성공하였습니다.</value>
+  </data>
+  <data name="strFailedToBackupDatabase" xml:space="preserve">
+    <value>자료기지백업실패.</value>
+  </data>
+  <data name="strRestoreDatabaseCheckFileName" xml:space="preserve">
+    <value>  파일백업은 영문등록부에 있어야 합니다.</value>
+  </data>
+  <data name="strFailedToRestoreDatabase" xml:space="preserve">
+    <value>자료기지회복실패.</value>
+  </data>
+  <data name="strRestoreDatabaseCheck" xml:space="preserve">
+    <value>자료기지회복은 원래자료기지의 자료를 삭제할수 있습니다. 자료기지회복을 진행하시겠습니까?
+    
+    (회복하기 전에 자료기지백업을 권고합니다)
+    
+    주의: MS SQL SERVER자료기지,파일백업과 현재 실행중인 프로그람은 같은 콤퓨터상에 있어야 합니다
+          
+          백업파일과 등록부들은 관리원이 열기권한을 가진 장소에 보관하여주십시오. </value>
+  </data>
+  <data name="strDatabaseCreationSuccess" xml:space="preserve">
+    <value>자료기지생성이 성공하였습니다.</value>
+  </data>
+  <data name="strFailedToCreateDatabase" xml:space="preserve">
+    <value>자료기지창조실패.</value>
+  </data>
+  <data name="strMsgIgnore" xml:space="preserve">
+    <value>무시</value>
+  </data>
+  <data name="strMsgAbort" xml:space="preserve">
+    <value>포기</value>
+  </data>
+  <data name="strMsgRetry" xml:space="preserve">
+    <value>재시도</value>
+  </data>
+  <data name="strVersion" xml:space="preserve">
+    <value>버젼</value>
+  </data>
+  <data name="strConnectFailed" xml:space="preserve">
+    <value>접속이 실패하였습니다.</value>
+  </data>
+  <data name="strMsgCancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="strBackupDatabaseSuccess" xml:space="preserve">
+    <value>자료기지백업이 성공하였습니다.</value>
+  </data>
+  <data name="strRestoreSuccess" xml:space="preserve">
+    <value>자료기지회복성공.</value>
+  </data>
+  <data name="strSaveOK" xml:space="preserve">
+    <value>보존성공.</value>
+  </data>
+  <data name="strUpgradeSuccess" xml:space="preserve">
+    <value>조작성공.</value>
+  </data>
+  <data name="strUseAccessSuccess" xml:space="preserve">
+    <value>Access자료기지방식으로 설정되였습니다.</value>
+  </data>
+  <data name="strApplicationAlreadyRunning" xml:space="preserve">
+    <value>프로그람이 이미 실행중입니다!</value>
+  </data>
+</root>

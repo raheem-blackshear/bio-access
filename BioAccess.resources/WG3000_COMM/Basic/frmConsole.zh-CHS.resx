@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="locateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="locateToolStripMenuItem.Text" xml:space="preserve">
+    <value>인원실시간위치</value>
+  </data>
+  <data name="grpTool.Text" xml:space="preserve">
+    <value>특수설정</value>
+  </data>
+  <data name="f_Time.HeaderText" xml:space="preserve">
+    <value>실행시간</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>써버</value>
+  </data>
+  <data name="btnMaps.Text" xml:space="preserve">
+    <value>전자지도</value>
+  </data>
+  <data name="btnMaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 41</value>
+  </data>
+  <data name="mnuWarnOutputReset.Text" xml:space="preserve">
+    <value>경보출력재설정</value>
+  </data>
+  <data name="mnuWarnOutputReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="btnHideTools.Text" xml:space="preserve">
+    <value>확정</value>
+  </data>
+  <data name="btnRemoteOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 41</value>
+  </data>
+  <data name="btnRemoteOpen.Text" xml:space="preserve">
+    <value>원격문열기</value>
+  </data>
+  <data name="btnStopOthers.Text" xml:space="preserve">
+    <value>정지</value>
+  </data>
+  <data name="btnStopOthers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 41</value>
+  </data>
+  <data name="btnRealtimeGetRecords.Text" xml:space="preserve">
+    <value>실시간얻기</value>
+  </data>
+  <data name="btnRealtimeGetRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 41</value>
+  </data>
+  <data name="btnWarnExisted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 41</value>
+  </data>
+  <data name="btnWarnExisted.Text" xml:space="preserve">
+    <value>경보가 발생할 때 확인</value>
+  </data>
+  <data name="grpDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 368</value>
+  </data>
+  <data name="grpDetail.Text" xml:space="preserve">
+    <value>상세정보</value>
+  </data>
+  <data name="f_Detail.HeaderText" xml:space="preserve">
+    <value>상세정보</value>
+  </data>
+  <data name="txtInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 1154</value>
+  </data>
+  <data name="f_Info.HeaderText" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="btnStopMonitor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 41</value>
+  </data>
+  <data name="btnStopMonitor.Text" xml:space="preserve">
+    <value>감시정지</value>
+  </data>
+  <data name="btnCheck.Text" xml:space="preserve">
+    <value>기대검사</value>
+  </data>
+  <data name="btnCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 41</value>
+  </data>
+  <data name="contextMenuStrip2RunInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 48</value>
+  </data>
+  <data name="btnGetRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 41</value>
+  </data>
+  <data name="btnGetRecords.Text" xml:space="preserve">
+    <value>기록얻기</value>
+  </data>
+  <data name="richTxtInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 1149</value>
+  </data>
+  <data name="personInsideToolStripMenuItem.Text" xml:space="preserve">
+    <value>문내부실시간열람</value>
+  </data>
+  <data name="personInsideToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>설정업로드</value>
+  </data>
+  <data name="btnUpload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 41</value>
+  </data>
+  <data name="btnClearRunInfo.Text" xml:space="preserve">
+    <value>기동정보지우기</value>
+  </data>
+  <data name="btnClearRunInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 41</value>
+  </data>
+  <data name="btnServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 41</value>
+  </data>
+  <data name="btnServer.Text" xml:space="preserve">
+    <value>실시간감시</value>
+  </data>
+  <data name="lstDoors.ToolTip" xml:space="preserve">
+    <value>마우스오른쪽건을 눌러주십시오...</value>
+  </data>
+  <data name="displayMoreSwipesToolStripMenuItem.Text" xml:space="preserve">
+    <value>전화면현시</value>
+  </data>
+  <data name="displayMoreSwipesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="f_MjRecStr.HeaderText" xml:space="preserve">
+    <value>출입기록</value>
+  </data>
+  <data name="chkNeedCheckLosePacket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="chkNeedCheckLosePacket.Text" xml:space="preserve">
+    <value>루실파케트검사(기대검사시)</value>
+  </data>
+  <data name="chkDisplayNewestSwipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 16</value>
+  </data>
+  <data name="chkDisplayNewestSwipe.Text" xml:space="preserve">
+    <value>제일 마지막 한개의 기록을 현시(기대검사시)</value>
+  </data>
+  <data name="cboZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 44</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 224</value>
+  </data>
+  <data name="f_Category.ToolTipText" xml:space="preserve">
+    <value>류형</value>
+  </data>
+  <data name="dgvRunInfo.ToolTip" xml:space="preserve">
+    <value>마우스오른쪽건을 눌러주십시오...</value>
+  </data>
+  <data name="f_RecID.ToolTipText" xml:space="preserve">
+    <value>번호</value>
+  </data>
+  <data name="clearRunInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>기동정보삭제</value>
+  </data>
+  <data name="clearRunInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>상세정보</value>
+  </data>
+  <data name="btnSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 41</value>
+  </data>
+  <data name="btnSelectAll.Text" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="f_Desc.HeaderText" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="btnSetTime.Text" xml:space="preserve">
+    <value>시간교정</value>
+  </data>
+  <data name="btnSetTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 41</value>
+  </data>
+  <data name="resetPersonInsideToolStripMenuItem.Text" xml:space="preserve">
+    <value>문내부인원수를 0으로 초기화</value>
+  </data>
+  <data name="resetPersonInsideToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="mnuCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="mnuCheck.Text" xml:space="preserve">
+    <value>기대검사</value>
+  </data>
+  <data name="contextMenuStrip1Doors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 114</value>
+  </data>
+</root>
